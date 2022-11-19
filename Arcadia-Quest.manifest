@@ -1,0 +1,3743 @@
+{
+  "name": "Arcadia + Beyond",
+  "game": "Arcadia Quest",
+  "genre": "fantasy",
+  "publisher": "CMON",
+  "url": "https://www.cmon.com/product/arcadia-quest",
+  "info": "",
+  "manifest": {
+    "assetTaxonomy": {
+      "Death Curse": {
+        "aspects": {
+          "Type": "game piece"
+        },
+        "stats": {
+          "Value": {
+            "group": "value",
+            "groupOrder": -1
+          }
+        }
+      },
+      "Guild": {
+        "allowed": {
+          "classifications": [
+            "Hero"
+          ]
+        },
+        "aspects": {
+          "Describe": true,
+          "Lock Qty": true,
+          "Rename": true
+        },
+        "stats": {
+          "Bomb": {
+            "tracked": true,
+            "max": 1,
+            "visibility": "hidden"
+          }
+        }
+      },
+      "Hero": {
+        "allowed": {
+          "classifications": [
+            "Death Curse",
+            "Upgrade"
+          ]
+        },
+        "aspects": {
+          "Describe": true,
+          "Lock Qty": true,
+          "Type": "game piece",
+          "Unique": true
+        },
+        "stats": {
+          "Armor": {
+            "tracked": true,
+            "max": 1,
+            "visibility": "hidden"
+          },
+          "Def": {},
+          "HP": {}
+        }
+      },
+      "Special Ability": {
+        "aspects": {
+          "Lock Qty": true,
+          "Unique": true
+        }
+      },
+      "Upgrade": {
+        "aspects": {
+          "Lock Qty": true,
+          "Type": "game piece"
+        },
+        "keywords": {
+          "Number": []
+        },
+        "stats": {
+          "Armor": {
+            "value": null,
+            "statType": "numeric",
+            "visibility": "hidden"
+          },
+          "Atk": {
+            "value": null,
+            "statType": "numeric"
+          },
+          "Class": {
+            "group": "Attributes",
+            "ranks": {
+              "0": {
+                "hotkey": "m",
+                "label": "Melee",
+                "order": 0
+              },
+              "1": {
+                "hotkey": "r",
+                "label": "Ranged",
+                "order": 1
+              },
+              "2": {
+                "hotkey": "p",
+                "label": "Permanent",
+                "order": 2
+              },
+              "3": {
+                "hotkey": "b",
+                "label": "Boost",
+                "order": 3
+              }
+            },
+            "statType": "rank"
+          },
+          "Def": {
+            "value": null,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": null,
+            "statType": "numeric"
+          },
+          "Price": {
+            "group": "Cost",
+            "groupOrder": -1,
+            "value": null,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": null,
+            "statType": "numeric"
+          },
+          "Type": {
+            "group": "Attributes",
+            "ranks": {
+              "0": {
+                "hotkey": "b",
+                "label": "Ability",
+                "order": 0
+              },
+              "1": {
+                "hotkey": "r",
+                "label": "Armor",
+                "order": 1
+              },
+              "2": {
+                "hotkey": "a",
+                "label": "Axe",
+                "order": 2
+              },
+              "3": {
+                "hotkey": "i",
+                "label": "Bling",
+                "order": 3
+              },
+              "4": {
+                "hotkey": "o",
+                "label": "Bow",
+                "order": 4
+              },
+              "5": {
+                "hotkey": "x",
+                "label": "Exotic",
+                "order": 5
+              },
+              "6": {
+                "hotkey": "g",
+                "label": "Gear",
+                "order": 6
+              },
+              "7": {
+                "hotkey": "h",
+                "label": "Hammer",
+                "order": 7
+              },
+              "8": {
+                "hotkey": "l",
+                "label": "Lance",
+                "order": 8
+              },
+              "9": {
+                "hotkey": "m",
+                "label": "Magic",
+                "order": 9
+              },
+              "10": {
+                "hotkey": "s",
+                "label": "Shield",
+                "order": 10
+              },
+              "11": {
+                "hotkey": "w",
+                "label": "Sword",
+                "order": 11
+              },
+              "12": {
+                "hotkey": "t",
+                "label": "Thrown",
+                "order": 12
+              }
+            },
+            "statType": "rank"
+          }
+        }
+      }
+    },
+    "assetCatalog": {
+      "Death Curse§Accident Prone": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 6,
+            "statType": "numeric"
+          }
+        },
+        "text": "This Hero suffers 1 Wound if his attack deals no Wounds.",
+        "designation": "Accident Prone"
+      },
+      "Death Curse§Amnesia": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "text": "Place on Hero card. This Hero loses his Natural Ability.",
+        "designation": "Amnesia"
+      },
+      "Death Curse§Aquaphobia": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "text": "This Hero cannot use Potion tokens.",
+        "designation": "Aquaphobia"
+      },
+      "Death Curse§Damned": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 1,
+            "statType": "numeric"
+          }
+        },
+        "text": "1 Damnation",
+        "designation": "Damned"
+      },
+      "Death Curse§Dazed and Confused": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 7,
+            "statType": "numeric"
+          }
+        },
+        "text": "If this Hero suffers at least 1 Wound, he is Dazed.",
+        "designation": "Dazed and Confused"
+      },
+      "Death Curse§Eternally Damned": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 7,
+            "statType": "numeric"
+          }
+        },
+        "text": "Occupies a Card slot. 3 Damnation.",
+        "designation": "Eternally Damned"
+      },
+      "Death Curse§No Curse": {
+        "classification": "Death Curse",
+        "text": "Nothing happens, discard this card.",
+        "designation": "No Curse"
+      },
+      "Death Curse§Nosebleed": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "text": "-1 Life",
+        "designation": "Nosebleed"
+      },
+      "Death Curse§Paranoia": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 6,
+            "statType": "numeric"
+          }
+        },
+        "text": "Whenever an enemy reveals a Brimstone Card, this Hero immediately receives 1 Damnation.",
+        "designation": "Paranoia"
+      },
+      "Death Curse§Severe Nosebleed": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 5,
+            "statType": "numeric"
+          }
+        },
+        "text": "Occupies a card slot. -1 Life.",
+        "designation": "Severe Nosebleed"
+      },
+      "Death Curse§Sinful": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "text": "Each time this Hero gains any number of Damnation, he gets 1 additional Damnation.",
+        "designation": "Sinful"
+      },
+      "Death Curse§System Shock": {
+        "classification": "Death Curse",
+        "stats": {
+          "Value": {
+            "value": 2,
+            "statType": "numeric"
+          }
+        },
+        "text": "Occupies a card slot. No other card effect.",
+        "designation": "System Shock"
+      },
+      "Guild§Guild": {
+        "classification": "Guild",
+        "designation": "Guild"
+      },
+      "Hero§Chaz": {
+        "assets": {
+          "traits": [
+            "Special Ability§Not the Face"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Chaz"
+      },
+      "Hero§Darryn": {
+        "assets": {
+          "traits": [
+            "Special Ability§Bruiser"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Darryn"
+      },
+      "Hero§Diva": {
+        "assets": {
+          "traits": [
+            "Special Ability§Tough as Nails"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Diva"
+      },
+      "Hero§Greensleeves": {
+        "assets": {
+          "traits": [
+            "Special Ability§Bow Mastery"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Greensleeves"
+      },
+      "Hero§Grom": {
+        "assets": {
+          "traits": [
+            "Special Ability§Berserk"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 5,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Grom"
+      },
+      "Hero§Hobsbawm": {
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Hobsbawm"
+      },
+      "Hero§Johan": {
+        "assets": {
+          "traits": [
+            "Special Ability§Blade Thrrow"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Johan"
+      },
+      "Hero§Kanga": {
+        "assets": {
+          "traits": [
+            "Special Ability§Self-Sacrifice"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Kanga"
+      },
+      "Hero§Maya": {
+        "assets": {
+          "traits": [
+            "Special Ability§Mana Mastery"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 5,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Maya"
+      },
+      "Hero§Scarlet": {
+        "assets": {
+          "traits": [
+            "Special Ability§Backstab"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Scarlet"
+      },
+      "Hero§Seth": {
+        "assets": {
+          "traits": [
+            "Special Ability§Piercing Magic"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Seth"
+      },
+      "Hero§Spike": {
+        "assets": {
+          "traits": [
+            "Special Ability§Vengeance"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Spike"
+      },
+      "Hero§Wisp": {
+        "assets": {
+          "traits": [
+            "Special Ability§Stealth"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Wisp"
+      },
+      "Hero§Zazu": {
+        "assets": {
+          "traits": [
+            "Special Ability§Opportunist"
+          ]
+        },
+        "classification": "Hero",
+        "stats": {
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Zazu"
+      },
+      "Roster§Game": {
+        "allowed": {
+          "classifications": [
+            "Guild"
+          ]
+        },
+        "aspects": {
+          "Describe": true,
+          "Lock Qty": true,
+          "Rename": true,
+          "Type": "conceptual",
+          "Unique": true
+        },
+        "classification": "Roster",
+        "stats": {
+          "Guild": {
+            "value": 0,
+            "label": "Players",
+            "tracked": true,
+            "max": 4,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Game"
+      },
+      "Special Ability§Backstab": {
+        "classification": "Special Ability",
+        "text": "Roll +1 die when attacking a flanked target (a target with at least one other Enemy Close to it).",
+        "designation": "Backstab"
+      },
+      "Special Ability§Berserk": {
+        "classification": "Special Ability",
+        "text": "Roll +1 die in all rolls while wounded.",
+        "designation": "Berserk"
+      },
+      "Special Ability§Blade Thrrow": {
+        "classification": "Special Ability",
+        "text": "May use Sword attack cards as Ranged attack cards (you still need Melee icons to hit).",
+        "designation": "Blade Thrrow"
+      },
+      "Special Ability§Blessing": {
+        "classification": "Special Ability",
+        "text": "If he uses a Magic attack card and does not perform his Movement, you may activate another Ally within Line of Sight.",
+        "designation": "Blessing"
+      },
+      "Special Ability§Bow Mastery": {
+        "classification": "Special Ability",
+        "text": "When attacking with a Bow attack card, each Crit deals one additional hit.",
+        "designation": "Bow Mastery"
+      },
+      "Special Ability§Bruiser": {
+        "classification": "Special Ability",
+        "text": "Rolls +1 die on attacks against targets that have no Wounds.",
+        "designation": "Bruiser"
+      },
+      "Special Ability§Mana Mastery": {
+        "classification": "Special Ability",
+        "text": "May exhaust each Magic attack card twice.",
+        "designation": "Mana Mastery"
+      },
+      "Special Ability§Not the Face": {
+        "classification": "Special Ability",
+        "text": "Rolls +2 dice on Melee attacks as long as he is not wounded.",
+        "designation": "Not the Face"
+      },
+      "Special Ability§Opportunist": {
+        "classification": "Special Ability",
+        "text": "Does not exhaust an attack card when attacking a flanked target (a target with at least one other Enemy Close to it).",
+        "designation": "Opportunist"
+      },
+      "Special Ability§Piercing Magic": {
+        "classification": "Special Ability",
+        "text": "When attacking with a Magic card, the target does not roll Defense dice.",
+        "designation": "Piercing Magic"
+      },
+      "Special Ability§Self-Sacrifice": {
+        "classification": "Special Ability",
+        "text": "May take a Wound instead of exhausting a card.",
+        "designation": "Self-Sacrifice"
+      },
+      "Special Ability§Stealth": {
+        "classification": "Special Ability",
+        "text": "When moving, does not trigger Guard Reaction.",
+        "designation": "Stealth"
+      },
+      "Special Ability§Tough as Nails": {
+        "classification": "Special Ability",
+        "designation": "Tough as Nails"
+      },
+      "Special Ability§Vengeance": {
+        "classification": "Special Ability",
+        "text": "Each Crit on his Defense roll deals 1 Wound to the attacker.",
+        "designation": "Vengeance"
+      },
+      "Upgrade§Amulet of Rawr!": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-11"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 7,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+2 dice on Attack rolls.",
+        "designation": "Amulet of Rawr!"
+      },
+      "Upgrade§Amulet of Retribution": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-08"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each hit cancelled by this Hero's Defense roll deals 1 Wound to the attacker.",
+        "designation": "Amulet of Retribution"
+      },
+      "Upgrade§Apocalypse Crown": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-13"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "At the start of your activation, you may deal 1 Wound to any Close Enemies.",
+        "designation": "Apocalypse Crown"
+      },
+      "Upgrade§Assassin’s Cloak": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-ED"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "When this Hero moves, deal 1 Wound to each Close Enemy (limit 1 Wound per Enemy per turn).",
+        "designation": "Assassin’s Cloak"
+      },
+      "Upgrade§Astral Strike": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-06"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Only targets any Enemy on the board that's Close to an Ally of yours. (May be used by a dead Hero. Does not trigger Payback Reaction.)",
+        "designation": "Astral Strike"
+      },
+      "Upgrade§Astral Strike II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-05"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Only targets any Enemy on the board that's Close to an Ally of yours. (May be used by a dead Hero. Does not trigger Payback Reaction.)",
+        "designation": "Astral Strike II"
+      },
+      "Upgrade§Banish": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "BG4-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Place the target in the Spawn tile unless he takes 2 extra Wounds (banishment does not count as a kill).",
+        "designation": "Banish"
+      },
+      "Upgrade§Battle Cry": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-14"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "text": "If your attack rolls any Crit, you may activate another allied Hero this turn.",
+        "designation": "Battle Cry"
+      },
+      "Upgrade§Beastman's Spear": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-TR"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "For this attack, the first diagonal Space counts as being Close.",
+        "designation": "Beastman's Spear"
+      },
+      "Upgrade§Blazing Shot": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-10"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+2 dice to a Bow attack. This Hero takes 1 Wound.",
+        "designation": "Blazing Shot"
+      },
+      "Upgrade§Bleeder": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each Crit deals one additional hit.",
+        "designation": "Bleeder"
+      },
+      "Upgrade§Blood Crown": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-RD"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Deal 2 Wounds to an Enemy that leaves a Space Close to this Hero (limit once per Enemy per turn).",
+        "designation": "Blood Crown"
+      },
+      "Upgrade§Bloodthirst": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-04"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each Crit deals 2 additional hits.",
+        "designation": "Bloodthirst"
+      },
+      "Upgrade§Bomb": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-AD"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space.",
+        "designation": "Bomb"
+      },
+      "Upgrade§Bomb Appetit": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-03"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 9,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space.",
+        "designation": "Bomb Appetit"
+      },
+      "Upgrade§Boneguard": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "BG2-04"
+          ]
+        },
+        "stats": {
+          "Armor": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Limit 1 armor per Hero. Cancels one Wound per Death token on the attacker.",
+        "designation": "Boneguard"
+      },
+      "Upgrade§Book of the Dead": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-11"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "When attacking, add +1 die per Death token in your Guild.",
+        "designation": "Book of the Dead"
+      },
+      "Upgrade§Brimstone": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-03"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this deals any Wounds, your target and 1 additional Enemy Close to it are Dazed.",
+        "designation": "Brimstone"
+      },
+      "Upgrade§Burninate": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-03"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "May also target any number of enemies Close to the target.",
+        "designation": "Burninate"
+      },
+      "Upgrade§Burninate II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-06"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "May also target any number of enemies Close to the target.",
+        "designation": "Burninate II"
+      },
+      "Upgrade§Captain’s Blade": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-MG"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Captain’s Blade"
+      },
+      "Upgrade§Celerity Stick": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-12"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Celerity Stick"
+      },
+      "Upgrade§Cleave": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-10"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 5,
+            "statType": "numeric"
+          }
+        },
+        "text": "Your Sword and Axe attacks may target an additional Enemy Close to this Hero.",
+        "designation": "Cleave"
+      },
+      "Upgrade§Cleave II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-14"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 9,
+            "statType": "numeric"
+          }
+        },
+        "text": "Your Sword and Axe attacks may target all Enemies Close to this Hero.",
+        "designation": "Cleave II"
+      },
+      "Upgrade§Cloak of Displacement": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-11"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "At the start of your turn, you may switch places between this Hero and an Ally (drop all Quest tokens).",
+        "designation": "Cloak of Displacement"
+      },
+      "Upgrade§Crack of Dawn": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-14"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 9,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Rolls +1 die against Heroes.",
+        "designation": "Crack of Dawn"
+      },
+      "Upgrade§Crescent Bow": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-04"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Crescent Bow"
+      },
+      "Upgrade§Crushing Gauntlet": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-13"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+2 dice to a non-Magic Melee attack. This Hero takes 1 Wound.",
+        "designation": "Crushing Gauntlet"
+      },
+      "Upgrade§Da Bomb": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-04"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Bomb": {
+            "value": 1,
+            "statType": "numeric",
+            "visibility": "hidden"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 9,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space.",
+        "designation": "Da Bomb"
+      },
+      "Upgrade§Das Boot": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-11"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "When you activate a different Hero, you may move this Hero 1 Space.",
+        "designation": "Das Boot"
+      },
+      "Upgrade§Deadshot": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "BG1-03"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+1 die to a Bow attack and an extra +1 die per Death Token on this Hero.",
+        "designation": "Deadshot"
+      },
+      "Upgrade§Death Swarm": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-06"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "TBD",
+        "designation": "Death Swarm"
+      },
+      "Upgrade§Decimator": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-04"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each Crit deals one additional hit.",
+        "designation": "Decimator"
+      },
+      "Upgrade§Die Booten": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-08"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "When you activate a different Hero, you may move this Hero 2 Spaces.",
+        "designation": "Die Booten"
+      },
+      "Upgrade§Emberstrike": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any Crit, target cannot roll Defense.",
+        "designation": "Emberstrike"
+      },
+      "Upgrade§Emperor’s Plate": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-07"
+          ]
+        },
+        "stats": {
+          "Armor": {
+            "value": 1,
+            "statType": "numeric",
+            "visibility": "hidden"
+          },
+          "Def": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 8,
+            "statType": "numeric"
+          }
+        },
+        "text": "Limit 1 armor per Hero.",
+        "designation": "Emperor’s Plate"
+      },
+      "Upgrade§Flaming Chain": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "BGR-SH"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any Crit, place your Guild token on the target's figure. At the start of each of your turns, the target suffers a Wound (Rest removes this).",
+        "designation": "Flaming Chain"
+      },
+      "Upgrade§Fortune Dice": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "BG2-03"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Before you roll, predict how many hits or saves you will get. If you can get that many exactly, double the result.",
+        "designation": "Fortune Dice"
+      },
+      "Upgrade§Frostbite": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+2 dice against Heroes with any exhausted cards.",
+        "designation": "Frostbite"
+      },
+      "Upgrade§Genesis Glass": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-11"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "At the start of your turn, this Hero heals 1 Wound.",
+        "designation": "Genesis Glass"
+      },
+      "Upgrade§Genesis Glass II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-16"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "At the start of your turn, this Hero heals 2 Wounds.",
+        "designation": "Genesis Glass II"
+      },
+      "Upgrade§Greenskin Bane": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-OH"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+1 die against Orcs and Goblins.",
+        "designation": "Greenskin Bane"
+      },
+      "Upgrade§Ground Pounder": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-04"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this deals a Wound, your target and all Enemies Close to it are Dazed.",
+        "designation": "Ground Pounder"
+      },
+      "Upgrade§Grrrrrrrrr!": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-09"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 7,
+            "statType": "numeric"
+          }
+        },
+        "text": "Once per attack, you may take 1 Wound to add +1 die.",
+        "designation": "Grrrrrrrrr!"
+      },
+      "Upgrade§Hate": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-05"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any Crit against a Hero, exhaust all of his cards, unless he takes 2 extra Wounds.",
+        "designation": "Hate"
+      },
+      "Upgrade§Hate II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-05"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any Crit against a Hero, exhaust all of his cards, unless he takes 2 extra Wounds.",
+        "designation": "Hate II"
+      },
+      "Upgrade§Heart of Angelis": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-TM"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Whenever this Hero suffers any Wounds, heal 1 Wound from all Allies.",
+        "designation": "Heart of Angelis"
+      },
+      "Upgrade§Heart of the Dragon": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-10"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "HP": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each Crit on this Hero's Defense roll adds one extra save.",
+        "designation": "Heart of the Dragon"
+      },
+      "Upgrade§Heart of the Gryphon": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-10"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "HP": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Heart of the Gryphon"
+      },
+      "Upgrade§Heart of the Phoenix": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-13"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "HP": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Heart of the Phoenix"
+      },
+      "Upgrade§Heart of the Unicorn": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-09"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "HP": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Heart of the Unicorn"
+      },
+      "Upgrade§Holy Nova": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "BG1-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If you deal any Wounds, the target and an additional Enemy close to you are Dazed.",
+        "designation": "Holy Nova"
+      },
+      "Upgrade§Holy Nova II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "BG4-05"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this attack deals any Wounds, your target and all Enemies Close to you are Dazed.",
+        "designation": "Holy Nova II"
+      },
+      "Upgrade§Holy Water": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "BGR-BS"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If attacking a Minion, each Crit rolled immediately deals an extra Wound.",
+        "designation": "Holy Water"
+      },
+      "Upgrade§Hulking Serum": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "BGR-SL"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Double the Attack dice of a non-Magic attack card.",
+        "designation": "Hulking Serum"
+      },
+      "Upgrade§Hunter Crossbow": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "BG5-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Only Crit on the Defense roll score saves against this attack. +1 die against Monsters",
+        "designation": "Hunter Crossbow"
+      },
+      "Upgrade§Impale": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "BG3-03"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "text": "If you roll any Crit on a Sword or Lance attack, you may target one additional Enemy Close to the target.",
+        "designation": "Impale"
+      },
+      "Upgrade§Impale II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "BG5-04"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          }
+        },
+        "text": "For each Crit you roll on a Sword or Lance attack, you may target one additional Enemy Close to the target.",
+        "designation": "Impale II"
+      },
+      "Upgrade§King’s Plate": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-07"
+          ]
+        },
+        "stats": {
+          "Armor": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Limit 1 armor per Hero.",
+        "designation": "King’s Plate"
+      },
+      "Upgrade§King’s Shield": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-10"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "May exhaust Hero to get +2 on a Defense roll.",
+        "designation": "King’s Shield"
+      },
+      "Upgrade§Knight’s Plate": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-06"
+          ]
+        },
+        "stats": {
+          "Armor": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Limit 1 armor per Hero.",
+        "designation": "Knight’s Plate"
+      },
+      "Upgrade§Knight’s Shield": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-07"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "May exhaust your Hero card to force an attack made against you to be rolled again.",
+        "designation": "Knight’s Shield"
+      },
+      "Upgrade§Last Grim": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "BG1-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "May target an additional Enemy Close to this Hero.",
+        "designation": "Last Grim"
+      },
+      "Upgrade§Last Stand": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-09"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "ranks": {
+              "0": {
+                "label": "X",
+                "order": 0
+              }
+            },
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "X= Total Wounds on this Hero.",
+        "designation": "Last Stand"
+      },
+      "Upgrade§Life Drain": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Starting"
+          ],
+          "Number": [
+            "S-05"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each hit heals 1 Wound from this Hero.",
+        "designation": "Life Drain"
+      },
+      "Upgrade§Life Drain II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-03"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each hit heals 1 Wound from this Hero and one Close Ally.",
+        "designation": "Life Drain II"
+      },
+      "Upgrade§Life Drain III": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-09"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each hit heals 1 Wound from this Hero and all Close Allies.",
+        "designation": "Life Drain III"
+      },
+      "Upgrade§Lifestealer": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-12"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each Wound dealt by the boosted Magic attack heals 1 Wound from this Hero.",
+        "designation": "Lifestealer"
+      },
+      "Upgrade§Lord’s Plate": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-12"
+          ]
+        },
+        "stats": {
+          "Armor": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Limit 1 armor per Hero.",
+        "designation": "Lord’s Plate"
+      },
+      "Upgrade§Moon Ring": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-07"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+1 die to one Attack Card.",
+        "designation": "Moon Ring"
+      },
+      "Upgrade§Moon Ring II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-08"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+2 dice to one Attack card.",
+        "designation": "Moon Ring II"
+      },
+      "Upgrade§Moon Ring III": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-15"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+3 dice to one Attack card.",
+        "designation": "Moon Ring III"
+      },
+      "Upgrade§Moon Shield": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-08"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Double your total Defense dice.",
+        "designation": "Moon Shield"
+      },
+      "Upgrade§More Grrrrrrrrr!": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-09"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          }
+        },
+        "text": "Once per attack, you may take 2 Wounds to add +2 die.",
+        "designation": "More Grrrrrrrrr!"
+      },
+      "Upgrade§Necronomicon": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "BG4-04"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+1 die to any attack per Death token on the target",
+        "designation": "Necronomicon"
+      },
+      "Upgrade§Night Fury": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Night Fury"
+      },
+      "Upgrade§Nova Bolt": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Starting"
+          ],
+          "Number": [
+            "S-04"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any Crit, may target an additional Enemy Close to the target.",
+        "designation": "Nova Bolt"
+      },
+      "Upgrade§Nova Bolt II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-05"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any Crit, may target an additional Enemy Close to the target",
+        "designation": "Nova Bolt II"
+      },
+      "Upgrade§Orc Beater": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-03"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 8,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Rolls +1 die against Orcs and Goblins.",
+        "designation": "Orc Beater"
+      },
+      "Upgrade§Orc Pelt": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-08"
+          ]
+        },
+        "stats": {
+          "Armor": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Limit 1 armor per Hero.",
+        "designation": "Orc Pelt"
+      },
+      "Upgrade§Parrying Blade": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Starting"
+          ],
+          "Number": [
+            "S-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Parrying Blade"
+      },
+      "Upgrade§Power Harness": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "BGR-BD"
+          ]
+        },
+        "stats": {
+          "Armor": {
+            "value": 1,
+            "statType": "numeric",
+            "visibility": "hidden"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "HP": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Limit 1 armor per Hero. This Hero can exhaust each card one extra time.",
+        "designation": "Power Harness"
+      },
+      "Upgrade§Quickshot": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Only Crit on the Defense roll score saves against this attack.",
+        "designation": "Quickshot"
+      },
+      "Upgrade§Rabbit’s Foot": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "BG4-03"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Exhaust your Hero card to roll again from scratch either your attack or an attack made against you.",
+        "designation": "Rabbit’s Foot"
+      },
+      "Upgrade§Ragestone": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-14"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {},
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "When attacking, add +1 die for each Wound on this Hero.",
+        "designation": "Ragestone"
+      },
+      "Upgrade§Rune Ring": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "BG2-02"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Add an extra +1 Reroll per Death token on this Hero.",
+        "designation": "Rune Ring"
+      },
+      "Upgrade§Rusty Blade": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Starting"
+          ],
+          "Number": [
+            "S-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Rusty Blade"
+      },
+      "Upgrade§Sack O’ Bones": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-S1"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Heal 2 Wounds whenever this Hero kills an Enemy.",
+        "designation": "Sack O’ Bones"
+      },
+      "Upgrade§Schmetterling’s Axe": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-S2"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each Crit deals one additional hit and heals 1 Wound from this Hero.",
+        "designation": "Schmetterling’s Axe"
+      },
+      "Upgrade§Shield of Souls": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-BA"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Exhaust this Hero to immediately Resurrect one Ally.",
+        "designation": "Shield of Souls"
+      },
+      "Upgrade§Sickle": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Starting"
+          ],
+          "Number": [
+            "BGS-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Sickle"
+      },
+      "Upgrade§Skull Helm": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "BGR-MS"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this Hero has Boneguard, cancel 1 Wound per attack.",
+        "designation": "Skull Helm"
+      },
+      "Upgrade§Skull Mace": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "BG4-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 5,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this deals any Wounds, choose and exhaust one of the target's cards.",
+        "designation": "Skull Mace"
+      },
+      "Upgrade§Skullcracker": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-DH"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this deals a Wound, your target is Dazed. +1 die against Heroes.",
+        "designation": "Skullcracker"
+      },
+      "Upgrade§Slingshot": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Starting"
+          ],
+          "Number": [
+            "S-03"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Slingshot"
+      },
+      "Upgrade§Smashface": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "2-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this deals any Wounds, your target is Dazed.",
+        "designation": "Smashface"
+      },
+      "Upgrade§Sorrow": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 2"
+          ],
+          "Number": [
+            "BG2-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+1 attack die per Death token on this Hero.",
+        "designation": "Sorrow"
+      },
+      "Upgrade§Soulseeker": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-12"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each Crit on a Bow attack deals one extra hit.",
+        "designation": "Soulseeker"
+      },
+      "Upgrade§Soulstone": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "BGR-CR"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Soulstone"
+      },
+      "Upgrade§Spinal Tap": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "BGE-HB"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+2 dice if the target has any Death tokens.",
+        "designation": "Spinal Tap"
+      },
+      "Upgrade§Summoning": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "BG3-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any Crit, take the first Monster from the Spawn tile, place it Close to your target and have it attack him.",
+        "designation": "Summoning"
+      },
+      "Upgrade§Sun Ring": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-06"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Reroll": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Sun Ring"
+      },
+      "Upgrade§Sun Ring II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-13"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Reroll": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Sun Ring II"
+      },
+      "Upgrade§Thorn": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          }
+        },
+        "designation": "Thorn"
+      },
+      "Upgrade§Throwing Axe": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "BG3-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Each Crit deals one additional hit.",
+        "designation": "Throwing Axe"
+      },
+      "Upgrade§Tombstone Shield": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "BGR-TG"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Def": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "And an extra +1 Defense per Death token on this Hero.",
+        "designation": "Tombstone Shield"
+      },
+      "Upgrade§Tome of Enlightenment": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Reward"
+          ],
+          "Number": [
+            "R-UP"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Reroll": {
+            "value": 2,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Tome of Enlightenment"
+      },
+      "Upgrade§Trueshot": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "5-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 6,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Trueshot"
+      },
+      "Upgrade§Trusty Blade": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-01"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Def": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Price": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Reroll": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "designation": "Trusty Blade"
+      },
+      "Upgrade§Twinbolt": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 4"
+          ],
+          "Number": [
+            "4-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Only Crit on the Defense roll score saves against this attack.",
+        "designation": "Twinbolt"
+      },
+      "Upgrade§Wand of Haste": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-15"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "+1 die to a Magic attack. Do not exhaust the boosted Magic attack card.",
+        "designation": "Wand of Haste"
+      },
+      "Upgrade§Warding Signet": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "BG5-03"
+          ]
+        },
+        "stats": {
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 1,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "Any Monster moving into a Space Close to this Hero suffers 1 Wound.",
+        "designation": "Warding Signet"
+      },
+      "Upgrade§Wind Blast": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 1"
+          ],
+          "Number": [
+            "1-05"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 3,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any hits, move the target up to 3 spaces (this Move doesn’t trigger Guard Reaction).",
+        "designation": "Wind Blast"
+      },
+      "Upgrade§Wind Blast II": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 3"
+          ],
+          "Number": [
+            "3-07"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any hits, move the target up to 3 spaces (this Move doesn't trigger Guard Reaction).",
+        "designation": "Wind Blast II"
+      },
+      "Upgrade§Wither": {
+        "classification": "Upgrade",
+        "keywords": {
+          "Keywords": [
+            "Level 5"
+          ],
+          "Number": [
+            "BG5-02"
+          ]
+        },
+        "stats": {
+          "Atk": {
+            "value": 4,
+            "statType": "numeric"
+          },
+          "Class": {
+            "statType": "rank"
+          },
+          "Price": {
+            "value": 7,
+            "statType": "numeric"
+          },
+          "Type": {
+            "statType": "rank"
+          }
+        },
+        "text": "If this rolls any Crit, place your Guild token on the target's figure. At the start of each of your turns, the target suffers a Wound (Rest removes this).",
+        "designation": "Wither"
+      }
+    },
+    "gameModes": {}
+  },
+  "revision": "0.1",
+  "notes": "This manifest is provided for the purposes of testing Rosterizer and is not intended for distribution."
+}
