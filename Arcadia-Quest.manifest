@@ -1,11 +1,10 @@
 {
   "name": "Arcadia + Beyond",
-  "wip": true,
   "game": "Arcadia Quest",
   "genre": "fantasy",
   "publisher": "CMON",
   "url": "https://www.cmon.com/product/arcadia-quest",
-  "notes": "This manifest is provided for the purposes of testing Rosterizer and is not intended for distribution.",
+  "info": "",
   "manifest": {
     "assetTaxonomy": {
       "Death Curse": {
@@ -205,7 +204,6 @@
     },
     "assetCatalog": {
       "Death Curse§Accident Prone": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 6,
@@ -215,7 +213,6 @@
         "text": "This Hero suffers 1 Wound if his attack deals no Wounds."
       },
       "Death Curse§Amnesia": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 4,
@@ -225,7 +222,6 @@
         "text": "Place on Hero card. This Hero loses his Natural Ability."
       },
       "Death Curse§Aquaphobia": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 1,
@@ -235,7 +231,6 @@
         "text": "This Hero cannot use Potion tokens."
       },
       "Death Curse§Damned": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 1,
@@ -245,7 +240,6 @@
         "text": "1 Damnation"
       },
       "Death Curse§Dazed and Confused": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 7,
@@ -255,7 +249,6 @@
         "text": "If this Hero suffers at least 1 Wound, he is Dazed."
       },
       "Death Curse§Eternally Damned": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 7,
@@ -265,11 +258,9 @@
         "text": "Occupies a Card slot. 3 Damnation."
       },
       "Death Curse§No Curse": {
-        "classification": "Death Curse",
         "text": "Nothing happens, discard this card."
       },
       "Death Curse§Nosebleed": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 3,
@@ -279,7 +270,6 @@
         "text": "-1 Life"
       },
       "Death Curse§Paranoia": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 6,
@@ -289,7 +279,6 @@
         "text": "Whenever an enemy reveals a Brimstone Card, this Hero immediately receives 1 Damnation."
       },
       "Death Curse§Severe Nosebleed": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 5,
@@ -299,7 +288,6 @@
         "text": "Occupies a card slot. -1 Life."
       },
       "Death Curse§Sinful": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 3,
@@ -309,7 +297,6 @@
         "text": "Each time this Hero gains any number of Damnation, he gets 1 additional Damnation."
       },
       "Death Curse§System Shock": {
-        "classification": "Death Curse",
         "stats": {
           "Value": {
             "value": 2,
@@ -318,16 +305,13 @@
         },
         "text": "Occupies a card slot. No other card effect."
       },
-      "Guild§Guild": {
-        "classification": "Guild"
-      },
+      "Guild§Guild": {},
       "Hero§Chaz": {
         "assets": {
           "traits": [
             "Special Ability§Not the Face"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 2,
@@ -345,7 +329,6 @@
             "Special Ability§Bruiser"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 2,
@@ -363,7 +346,6 @@
             "Special Ability§Tough as Nails"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 4,
@@ -381,7 +363,6 @@
             "Special Ability§Bow Mastery"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 2,
@@ -399,7 +380,6 @@
             "Special Ability§Berserk"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 1,
@@ -412,7 +392,6 @@
         }
       },
       "Hero§Hobsbawm": {
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 2,
@@ -430,7 +409,6 @@
             "Special Ability§Blade Thrrow"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 3,
@@ -448,7 +426,6 @@
             "Special Ability§Self-Sacrifice"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 2,
@@ -466,7 +443,6 @@
             "Special Ability§Mana Mastery"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 1,
@@ -484,7 +460,6 @@
             "Special Ability§Backstab"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 3,
@@ -502,7 +477,6 @@
             "Special Ability§Piercing Magic"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 2,
@@ -520,7 +494,6 @@
             "Special Ability§Vengeance"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 2,
@@ -538,7 +511,6 @@
             "Special Ability§Stealth"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 2,
@@ -556,7 +528,6 @@
             "Special Ability§Opportunist"
           ]
         },
-        "classification": "Hero",
         "stats": {
           "Def": {
             "value": 2,
@@ -581,7 +552,6 @@
           "Type": "conceptual",
           "Unique": true
         },
-        "classification": "Roster",
         "stats": {
           "Guild": {
             "value": 0,
@@ -593,62 +563,46 @@
         }
       },
       "Special Ability§Backstab": {
-        "classification": "Special Ability",
         "text": "Roll +1 die when attacking a flanked target (a target with at least one other Enemy Close to it)."
       },
       "Special Ability§Berserk": {
-        "classification": "Special Ability",
         "text": "Roll +1 die in all rolls while wounded."
       },
       "Special Ability§Blade Thrrow": {
-        "classification": "Special Ability",
         "text": "May use Sword attack cards as Ranged attack cards (you still need Melee icons to hit)."
       },
       "Special Ability§Blessing": {
-        "classification": "Special Ability",
         "text": "If he uses a Magic attack card and does not perform his Movement, you may activate another Ally within Line of Sight."
       },
       "Special Ability§Bow Mastery": {
-        "classification": "Special Ability",
         "text": "When attacking with a Bow attack card, each Crit deals one additional hit."
       },
       "Special Ability§Bruiser": {
-        "classification": "Special Ability",
         "text": "Rolls +1 die on attacks against targets that have no Wounds."
       },
       "Special Ability§Mana Mastery": {
-        "classification": "Special Ability",
         "text": "May exhaust each Magic attack card twice."
       },
       "Special Ability§Not the Face": {
-        "classification": "Special Ability",
         "text": "Rolls +2 dice on Melee attacks as long as he is not wounded."
       },
       "Special Ability§Opportunist": {
-        "classification": "Special Ability",
         "text": "Does not exhaust an attack card when attacking a flanked target (a target with at least one other Enemy Close to it)."
       },
       "Special Ability§Piercing Magic": {
-        "classification": "Special Ability",
         "text": "When attacking with a Magic card, the target does not roll Defense dice."
       },
       "Special Ability§Self-Sacrifice": {
-        "classification": "Special Ability",
         "text": "May take a Wound instead of exhausting a card."
       },
       "Special Ability§Stealth": {
-        "classification": "Special Ability",
         "text": "When moving, does not trigger Guard Reaction."
       },
-      "Special Ability§Tough as Nails": {
-        "classification": "Special Ability"
-      },
+      "Special Ability§Tough as Nails": {},
       "Special Ability§Vengeance": {
-        "classification": "Special Ability",
         "text": "Each Crit on his Defense roll deals 1 Wound to the attacker."
       },
       "Upgrade§Amulet of Rawr!": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -672,7 +626,6 @@
         "text": "+2 dice on Attack rolls."
       },
       "Upgrade§Amulet of Retribution": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -696,7 +649,6 @@
         "text": "Each hit cancelled by this Hero's Defense roll deals 1 Wound to the attacker."
       },
       "Upgrade§Apocalypse Crown": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -720,7 +672,6 @@
         "text": "At the start of your activation, you may deal 1 Wound to any Close Enemies."
       },
       "Upgrade§Assassin’s Cloak": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -740,7 +691,6 @@
         "text": "When this Hero moves, deal 1 Wound to each Close Enemy (limit 1 Wound per Enemy per turn)."
       },
       "Upgrade§Astral Strike": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -765,7 +715,6 @@
         "text": "Only targets any Enemy on the board that's Close to an Ally of yours. (May be used by a dead Hero. Does not trigger Payback Reaction.)"
       },
       "Upgrade§Astral Strike II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -790,7 +739,6 @@
         "text": "Only targets any Enemy on the board that's Close to an Ally of yours. (May be used by a dead Hero. Does not trigger Payback Reaction.)"
       },
       "Upgrade§Banish": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -818,7 +766,6 @@
         "text": "Place the target in the Spawn tile unless he takes 2 extra Wounds (banishment does not count as a kill)."
       },
       "Upgrade§Battle Cry": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -839,7 +786,6 @@
         "text": "If your attack rolls any Crit, you may activate another allied Hero this turn."
       },
       "Upgrade§Beastman's Spear": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -860,7 +806,6 @@
         "text": "For this attack, the first diagonal Space counts as being Close."
       },
       "Upgrade§Blazing Shot": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -884,7 +829,6 @@
         "text": "+2 dice to a Bow attack. This Hero takes 1 Wound."
       },
       "Upgrade§Bleeder": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -909,7 +853,6 @@
         "text": "Each Crit deals one additional hit."
       },
       "Upgrade§Blood Crown": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -929,7 +872,6 @@
         "text": "Deal 2 Wounds to an Enemy that leaves a Space Close to this Hero (limit once per Enemy per turn)."
       },
       "Upgrade§Bloodthirst": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -954,7 +896,6 @@
         "text": "Each Crit deals 2 additional hits."
       },
       "Upgrade§Bomb": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -978,7 +919,6 @@
         "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space."
       },
       "Upgrade§Bomb Appetit": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -1006,7 +946,6 @@
         "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space."
       },
       "Upgrade§Boneguard": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -1042,7 +981,6 @@
         "text": "Limit 1 armor per Hero. Cancels one Wound per Death token on the attacker."
       },
       "Upgrade§Book of the Dead": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -1062,7 +1000,6 @@
         "text": "When attacking, add +1 die per Death token in your Guild."
       },
       "Upgrade§Brimstone": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -1087,7 +1024,6 @@
         "text": "If this deals any Wounds, your target and 1 additional Enemy Close to it are Dazed."
       },
       "Upgrade§Burninate": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -1115,7 +1051,6 @@
         "text": "May also target any number of enemies Close to the target."
       },
       "Upgrade§Burninate II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -1143,7 +1078,6 @@
         "text": "May also target any number of enemies Close to the target."
       },
       "Upgrade§Captain’s Blade": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -1171,7 +1105,6 @@
         }
       },
       "Upgrade§Celerity Stick": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -1194,7 +1127,6 @@
         }
       },
       "Upgrade§Cleave": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -1215,7 +1147,6 @@
         "text": "Your Sword and Axe attacks may target an additional Enemy Close to this Hero."
       },
       "Upgrade§Cleave II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -1236,7 +1167,6 @@
         "text": "Your Sword and Axe attacks may target all Enemies Close to this Hero."
       },
       "Upgrade§Cloak of Displacement": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -1260,7 +1190,6 @@
         "text": "At the start of your turn, you may switch places between this Hero and an Ally (drop all Quest tokens)."
       },
       "Upgrade§Crack of Dawn": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -1285,7 +1214,6 @@
         "text": "Rolls +1 die against Heroes."
       },
       "Upgrade§Crescent Bow": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -1312,7 +1240,6 @@
         }
       },
       "Upgrade§Crushing Gauntlet": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -1336,7 +1263,6 @@
         "text": "+2 dice to a non-Magic Melee attack. This Hero takes 1 Wound."
       },
       "Upgrade§Da Bomb": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -1369,7 +1295,6 @@
         "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space."
       },
       "Upgrade§Das Boot": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -1389,7 +1314,6 @@
         "text": "When you activate a different Hero, you may move this Hero 1 Space."
       },
       "Upgrade§Deadshot": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -1413,7 +1337,6 @@
         "text": "+1 die to a Bow attack and an extra +1 die per Death Token on this Hero."
       },
       "Upgrade§Death Swarm": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -1441,7 +1364,6 @@
         "text": "TBD"
       },
       "Upgrade§Decimator": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -1466,7 +1388,6 @@
         "text": "Each Crit deals one additional hit."
       },
       "Upgrade§Die Booten": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -1490,7 +1411,6 @@
         "text": "When you activate a different Hero, you may move this Hero 2 Spaces."
       },
       "Upgrade§Emberstrike": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -1523,7 +1443,6 @@
         "text": "If this rolls any Crit, target cannot roll Defense."
       },
       "Upgrade§Emperor’s Plate": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -1554,7 +1473,6 @@
         "text": "Limit 1 armor per Hero."
       },
       "Upgrade§Flaming Chain": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -1575,7 +1493,6 @@
         "text": "If this rolls any Crit, place your Guild token on the target's figure. At the start of each of your turns, the target suffers a Wound (Rest removes this)."
       },
       "Upgrade§Fortune Dice": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -1595,7 +1512,6 @@
         "text": "Before you roll, predict how many hits or saves you will get. If you can get that many exactly, double the result."
       },
       "Upgrade§Frostbite": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -1628,7 +1544,6 @@
         "text": "+2 dice against Heroes with any exhausted cards."
       },
       "Upgrade§Genesis Glass": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -1652,7 +1567,6 @@
         "text": "At the start of your turn, this Hero heals 1 Wound."
       },
       "Upgrade§Genesis Glass II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -1676,7 +1590,6 @@
         "text": "At the start of your turn, this Hero heals 2 Wounds."
       },
       "Upgrade§Greenskin Bane": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -1700,7 +1613,6 @@
         "text": "+1 die against Orcs and Goblins."
       },
       "Upgrade§Ground Pounder": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -1725,7 +1637,6 @@
         "text": "If this deals a Wound, your target and all Enemies Close to it are Dazed."
       },
       "Upgrade§Grrrrrrrrr!": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -1746,7 +1657,6 @@
         "text": "Once per attack, you may take 1 Wound to add +1 die."
       },
       "Upgrade§Hate": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -1774,7 +1684,6 @@
         "text": "If this rolls any Crit against a Hero, exhaust all of his cards, unless he takes 2 extra Wounds."
       },
       "Upgrade§Hate II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -1802,7 +1711,6 @@
         "text": "If this rolls any Crit against a Hero, exhaust all of his cards, unless he takes 2 extra Wounds."
       },
       "Upgrade§Heart of Angelis": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -1822,7 +1730,6 @@
         "text": "Whenever this Hero suffers any Wounds, heal 1 Wound from all Allies."
       },
       "Upgrade§Heart of the Dragon": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -1850,7 +1757,6 @@
         "text": "Each Crit on this Hero's Defense roll adds one extra save."
       },
       "Upgrade§Heart of the Gryphon": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -1873,7 +1779,6 @@
         }
       },
       "Upgrade§Heart of the Phoenix": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -1900,7 +1805,6 @@
         }
       },
       "Upgrade§Heart of the Unicorn": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -1927,7 +1831,6 @@
         }
       },
       "Upgrade§Holy Nova": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -1952,7 +1855,6 @@
         "text": "If you deal any Wounds, the target and an additional Enemy close to you are Dazed."
       },
       "Upgrade§Holy Nova II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -1977,7 +1879,6 @@
         "text": "If this attack deals any Wounds, your target and all Enemies Close to you are Dazed."
       },
       "Upgrade§Holy Water": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -2001,7 +1902,6 @@
         "text": "If attacking a Minion, each Crit rolled immediately deals an extra Wound."
       },
       "Upgrade§Hulking Serum": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -2021,7 +1921,6 @@
         "text": "Double the Attack dice of a non-Magic attack card."
       },
       "Upgrade§Hunter Crossbow": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -2049,7 +1948,6 @@
         "text": "Only Crit on the Defense roll score saves against this attack. +1 die against Monsters"
       },
       "Upgrade§Impale": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -2070,7 +1968,6 @@
         "text": "If you roll any Crit on a Sword or Lance attack, you may target one additional Enemy Close to the target."
       },
       "Upgrade§Impale II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -2091,7 +1988,6 @@
         "text": "For each Crit you roll on a Sword or Lance attack, you may target one additional Enemy Close to the target."
       },
       "Upgrade§King’s Plate": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -2127,7 +2023,6 @@
         "text": "Limit 1 armor per Hero."
       },
       "Upgrade§King’s Shield": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -2159,7 +2054,6 @@
         "text": "May exhaust Hero to get +2 on a Defense roll."
       },
       "Upgrade§Knight’s Plate": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -2195,7 +2089,6 @@
         "text": "Limit 1 armor per Hero."
       },
       "Upgrade§Knight’s Shield": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -2223,7 +2116,6 @@
         "text": "May exhaust your Hero card to force an attack made against you to be rolled again."
       },
       "Upgrade§Last Grim": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -2248,7 +2140,6 @@
         "text": "May target an additional Enemy Close to this Hero."
       },
       "Upgrade§Last Stand": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -2281,7 +2172,6 @@
         "text": "X= Total Wounds on this Hero."
       },
       "Upgrade§Life Drain": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Starting"
@@ -2305,7 +2195,6 @@
         "text": "Each hit heals 1 Wound from this Hero."
       },
       "Upgrade§Life Drain II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -2333,7 +2222,6 @@
         "text": "Each hit heals 1 Wound from this Hero and one Close Ally."
       },
       "Upgrade§Life Drain III": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -2361,7 +2249,6 @@
         "text": "Each hit heals 1 Wound from this Hero and all Close Allies."
       },
       "Upgrade§Lifestealer": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -2385,7 +2272,6 @@
         "text": "Each Wound dealt by the boosted Magic attack heals 1 Wound from this Hero."
       },
       "Upgrade§Lord’s Plate": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -2421,7 +2307,6 @@
         "text": "Limit 1 armor per Hero."
       },
       "Upgrade§Moon Ring": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -2445,7 +2330,6 @@
         "text": "+1 die to one Attack Card."
       },
       "Upgrade§Moon Ring II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -2469,7 +2353,6 @@
         "text": "+2 dice to one Attack card."
       },
       "Upgrade§Moon Ring III": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -2493,7 +2376,6 @@
         "text": "+3 dice to one Attack card."
       },
       "Upgrade§Moon Shield": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -2517,7 +2399,6 @@
         "text": "Double your total Defense dice."
       },
       "Upgrade§More Grrrrrrrrr!": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -2538,7 +2419,6 @@
         "text": "Once per attack, you may take 2 Wounds to add +2 die."
       },
       "Upgrade§Necronomicon": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -2562,7 +2442,6 @@
         "text": "+1 die to any attack per Death token on the target"
       },
       "Upgrade§Night Fury": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -2594,7 +2473,6 @@
         }
       },
       "Upgrade§Nova Bolt": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Starting"
@@ -2618,7 +2496,6 @@
         "text": "If this rolls any Crit, may target an additional Enemy Close to the target."
       },
       "Upgrade§Nova Bolt II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -2646,7 +2523,6 @@
         "text": "If this rolls any Crit, may target an additional Enemy Close to the target"
       },
       "Upgrade§Orc Beater": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -2671,7 +2547,6 @@
         "text": "Rolls +1 die against Orcs and Goblins."
       },
       "Upgrade§Orc Pelt": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -2703,7 +2578,6 @@
         "text": "Limit 1 armor per Hero."
       },
       "Upgrade§Parrying Blade": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Starting"
@@ -2727,7 +2601,6 @@
         }
       },
       "Upgrade§Power Harness": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -2760,7 +2633,6 @@
         "text": "Limit 1 armor per Hero. This Hero can exhaust each card one extra time."
       },
       "Upgrade§Quickshot": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -2788,7 +2660,6 @@
         "text": "Only Crit on the Defense roll score saves against this attack."
       },
       "Upgrade§Rabbit’s Foot": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -2812,7 +2683,6 @@
         "text": "Exhaust your Hero card to roll again from scratch either your attack or an attack made against you."
       },
       "Upgrade§Ragestone": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -2833,7 +2703,6 @@
         "text": "When attacking, add +1 die for each Wound on this Hero."
       },
       "Upgrade§Rune Ring": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -2857,7 +2726,6 @@
         "text": "Add an extra +1 Reroll per Death token on this Hero."
       },
       "Upgrade§Rusty Blade": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Starting"
@@ -2877,7 +2745,6 @@
         }
       },
       "Upgrade§Sack O’ Bones": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -2897,7 +2764,6 @@
         "text": "Heal 2 Wounds whenever this Hero kills an Enemy."
       },
       "Upgrade§Schmetterling’s Axe": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -2918,7 +2784,6 @@
         "text": "Each Crit deals one additional hit and heals 1 Wound from this Hero."
       },
       "Upgrade§Shield of Souls": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -2942,7 +2807,6 @@
         "text": "Exhaust this Hero to immediately Resurrect one Ally."
       },
       "Upgrade§Sickle": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Starting"
@@ -2966,7 +2830,6 @@
         }
       },
       "Upgrade§Skull Helm": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -2994,7 +2857,6 @@
         "text": "If this Hero has Boneguard, cancel 1 Wound per attack."
       },
       "Upgrade§Skull Mace": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -3019,7 +2881,6 @@
         "text": "If this deals any Wounds, choose and exhaust one of the target's cards."
       },
       "Upgrade§Skullcracker": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -3040,7 +2901,6 @@
         "text": "If this deals a Wound, your target is Dazed. +1 die against Heroes."
       },
       "Upgrade§Slingshot": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Starting"
@@ -3063,7 +2923,6 @@
         }
       },
       "Upgrade§Smashface": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -3088,7 +2947,6 @@
         "text": "If this deals any Wounds, your target is Dazed."
       },
       "Upgrade§Sorrow": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 2"
@@ -3121,7 +2979,6 @@
         "text": "+1 attack die per Death token on this Hero."
       },
       "Upgrade§Soulseeker": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -3141,7 +2998,6 @@
         "text": "Each Crit on a Bow attack deals one extra hit."
       },
       "Upgrade§Soulstone": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -3160,7 +3016,6 @@
         }
       },
       "Upgrade§Spinal Tap": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -3184,7 +3039,6 @@
         "text": "+2 dice if the target has any Death tokens."
       },
       "Upgrade§Summoning": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -3212,7 +3066,6 @@
         "text": "If this rolls any Crit, take the first Monster from the Spawn tile, place it Close to your target and have it attack him."
       },
       "Upgrade§Sun Ring": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -3235,7 +3088,6 @@
         }
       },
       "Upgrade§Sun Ring II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -3258,7 +3110,6 @@
         }
       },
       "Upgrade§Thorn": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -3282,7 +3133,6 @@
         }
       },
       "Upgrade§Throwing Axe": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -3310,7 +3160,6 @@
         "text": "Each Crit deals one additional hit."
       },
       "Upgrade§Tombstone Shield": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -3338,7 +3187,6 @@
         "text": "And an extra +1 Defense per Death token on this Hero."
       },
       "Upgrade§Tome of Enlightenment": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Reward"
@@ -3361,7 +3209,6 @@
         }
       },
       "Upgrade§Trueshot": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -3388,7 +3235,6 @@
         }
       },
       "Upgrade§Trusty Blade": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -3420,7 +3266,6 @@
         }
       },
       "Upgrade§Twinbolt": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 4"
@@ -3448,7 +3293,6 @@
         "text": "Only Crit on the Defense roll score saves against this attack."
       },
       "Upgrade§Wand of Haste": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -3472,7 +3316,6 @@
         "text": "+1 die to a Magic attack. Do not exhaust the boosted Magic attack card."
       },
       "Upgrade§Warding Signet": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -3496,7 +3339,6 @@
         "text": "Any Monster moving into a Space Close to this Hero suffers 1 Wound."
       },
       "Upgrade§Wind Blast": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 1"
@@ -3524,7 +3366,6 @@
         "text": "If this rolls any hits, move the target up to 3 spaces (this Move doesn’t trigger Guard Reaction)."
       },
       "Upgrade§Wind Blast II": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 3"
@@ -3552,7 +3393,6 @@
         "text": "If this rolls any hits, move the target up to 3 spaces (this Move doesn't trigger Guard Reaction)."
       },
       "Upgrade§Wither": {
-        "classification": "Upgrade",
         "keywords": {
           "Keywords": [
             "Level 5"
@@ -3582,5 +3422,6 @@
     },
     "gameModes": {}
   },
-  "revision": "0.1"
+  "revision": "0.1",
+  "notes": "This manifest is provided for the purposes of testing Rosterizer and is not intended for distribution."
 }
