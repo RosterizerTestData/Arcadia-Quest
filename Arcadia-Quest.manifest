@@ -1,10 +1,11 @@
 {
   "name": "Arcadia + Beyond",
+  "wip": true,
   "game": "Arcadia Quest",
   "genre": "fantasy",
   "publisher": "CMON",
   "url": "https://www.cmon.com/product/arcadia-quest",
-  "info": "",
+  "notes": "This manifest is provided for the purposes of testing Rosterizer and is not intended for distribution.",
   "manifest": {
     "assetTaxonomy": {
       "Death Curse": {
@@ -3422,6 +3423,5 @@
     },
     "gameModes": {}
   },
-  "revision": "0.1",
-  "notes": "This manifest is provided for the purposes of testing Rosterizer and is not intended for distribution."
+  "revision": "0.1"
 }
