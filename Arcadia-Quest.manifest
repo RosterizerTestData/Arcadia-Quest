@@ -1,10 +1,11 @@
 {
   "name": "Arcadia + Beyond",
+  "wip": true,
   "game": "Arcadia Quest",
   "genre": "fantasy",
   "publisher": "CMON",
   "url": "https://www.cmon.com/product/arcadia-quest",
-  "info": "",
+  "notes": "This manifest is provided for the purposes of testing Rosterizer and is not intended for distribution.",
   "manifest": {
     "assetTaxonomy": {
       "Death Curse": {
@@ -211,8 +212,7 @@
             "statType": "numeric"
           }
         },
-        "text": "This Hero suffers 1 Wound if his attack deals no Wounds.",
-        "designation": "Accident Prone"
+        "text": "This Hero suffers 1 Wound if his attack deals no Wounds."
       },
       "Death Curse§Amnesia": {
         "classification": "Death Curse",
@@ -222,8 +222,7 @@
             "statType": "numeric"
           }
         },
-        "text": "Place on Hero card. This Hero loses his Natural Ability.",
-        "designation": "Amnesia"
+        "text": "Place on Hero card. This Hero loses his Natural Ability."
       },
       "Death Curse§Aquaphobia": {
         "classification": "Death Curse",
@@ -233,8 +232,7 @@
             "statType": "numeric"
           }
         },
-        "text": "This Hero cannot use Potion tokens.",
-        "designation": "Aquaphobia"
+        "text": "This Hero cannot use Potion tokens."
       },
       "Death Curse§Damned": {
         "classification": "Death Curse",
@@ -244,8 +242,7 @@
             "statType": "numeric"
           }
         },
-        "text": "1 Damnation",
-        "designation": "Damned"
+        "text": "1 Damnation"
       },
       "Death Curse§Dazed and Confused": {
         "classification": "Death Curse",
@@ -255,8 +252,7 @@
             "statType": "numeric"
           }
         },
-        "text": "If this Hero suffers at least 1 Wound, he is Dazed.",
-        "designation": "Dazed and Confused"
+        "text": "If this Hero suffers at least 1 Wound, he is Dazed."
       },
       "Death Curse§Eternally Damned": {
         "classification": "Death Curse",
@@ -266,13 +262,11 @@
             "statType": "numeric"
           }
         },
-        "text": "Occupies a Card slot. 3 Damnation.",
-        "designation": "Eternally Damned"
+        "text": "Occupies a Card slot. 3 Damnation."
       },
       "Death Curse§No Curse": {
         "classification": "Death Curse",
-        "text": "Nothing happens, discard this card.",
-        "designation": "No Curse"
+        "text": "Nothing happens, discard this card."
       },
       "Death Curse§Nosebleed": {
         "classification": "Death Curse",
@@ -282,8 +276,7 @@
             "statType": "numeric"
           }
         },
-        "text": "-1 Life",
-        "designation": "Nosebleed"
+        "text": "-1 Life"
       },
       "Death Curse§Paranoia": {
         "classification": "Death Curse",
@@ -293,8 +286,7 @@
             "statType": "numeric"
           }
         },
-        "text": "Whenever an enemy reveals a Brimstone Card, this Hero immediately receives 1 Damnation.",
-        "designation": "Paranoia"
+        "text": "Whenever an enemy reveals a Brimstone Card, this Hero immediately receives 1 Damnation."
       },
       "Death Curse§Severe Nosebleed": {
         "classification": "Death Curse",
@@ -304,8 +296,7 @@
             "statType": "numeric"
           }
         },
-        "text": "Occupies a card slot. -1 Life.",
-        "designation": "Severe Nosebleed"
+        "text": "Occupies a card slot. -1 Life."
       },
       "Death Curse§Sinful": {
         "classification": "Death Curse",
@@ -315,8 +306,7 @@
             "statType": "numeric"
           }
         },
-        "text": "Each time this Hero gains any number of Damnation, he gets 1 additional Damnation.",
-        "designation": "Sinful"
+        "text": "Each time this Hero gains any number of Damnation, he gets 1 additional Damnation."
       },
       "Death Curse§System Shock": {
         "classification": "Death Curse",
@@ -326,12 +316,10 @@
             "statType": "numeric"
           }
         },
-        "text": "Occupies a card slot. No other card effect.",
-        "designation": "System Shock"
+        "text": "Occupies a card slot. No other card effect."
       },
       "Guild§Guild": {
-        "classification": "Guild",
-        "designation": "Guild"
+        "classification": "Guild"
       },
       "Hero§Chaz": {
         "assets": {
@@ -349,8 +337,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Chaz"
+        }
       },
       "Hero§Darryn": {
         "assets": {
@@ -368,8 +355,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Darryn"
+        }
       },
       "Hero§Diva": {
         "assets": {
@@ -387,8 +373,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Diva"
+        }
       },
       "Hero§Greensleeves": {
         "assets": {
@@ -406,8 +391,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Greensleeves"
+        }
       },
       "Hero§Grom": {
         "assets": {
@@ -425,8 +409,7 @@
             "value": 5,
             "statType": "numeric"
           }
-        },
-        "designation": "Grom"
+        }
       },
       "Hero§Hobsbawm": {
         "classification": "Hero",
@@ -439,8 +422,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Hobsbawm"
+        }
       },
       "Hero§Johan": {
         "assets": {
@@ -458,8 +440,7 @@
             "value": 3,
             "statType": "numeric"
           }
-        },
-        "designation": "Johan"
+        }
       },
       "Hero§Kanga": {
         "assets": {
@@ -477,8 +458,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Kanga"
+        }
       },
       "Hero§Maya": {
         "assets": {
@@ -496,8 +476,7 @@
             "value": 5,
             "statType": "numeric"
           }
-        },
-        "designation": "Maya"
+        }
       },
       "Hero§Scarlet": {
         "assets": {
@@ -515,8 +494,7 @@
             "value": 3,
             "statType": "numeric"
           }
-        },
-        "designation": "Scarlet"
+        }
       },
       "Hero§Seth": {
         "assets": {
@@ -534,8 +512,7 @@
             "value": 3,
             "statType": "numeric"
           }
-        },
-        "designation": "Seth"
+        }
       },
       "Hero§Spike": {
         "assets": {
@@ -553,8 +530,7 @@
             "value": 3,
             "statType": "numeric"
           }
-        },
-        "designation": "Spike"
+        }
       },
       "Hero§Wisp": {
         "assets": {
@@ -572,8 +548,7 @@
             "value": 3,
             "statType": "numeric"
           }
-        },
-        "designation": "Wisp"
+        }
       },
       "Hero§Zazu": {
         "assets": {
@@ -591,8 +566,7 @@
             "value": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Zazu"
+        }
       },
       "Roster§Game": {
         "allowed": {
@@ -616,77 +590,62 @@
             "max": 4,
             "statType": "numeric"
           }
-        },
-        "designation": "Game"
+        }
       },
       "Special Ability§Backstab": {
         "classification": "Special Ability",
-        "text": "Roll +1 die when attacking a flanked target (a target with at least one other Enemy Close to it).",
-        "designation": "Backstab"
+        "text": "Roll +1 die when attacking a flanked target (a target with at least one other Enemy Close to it)."
       },
       "Special Ability§Berserk": {
         "classification": "Special Ability",
-        "text": "Roll +1 die in all rolls while wounded.",
-        "designation": "Berserk"
+        "text": "Roll +1 die in all rolls while wounded."
       },
       "Special Ability§Blade Thrrow": {
         "classification": "Special Ability",
-        "text": "May use Sword attack cards as Ranged attack cards (you still need Melee icons to hit).",
-        "designation": "Blade Thrrow"
+        "text": "May use Sword attack cards as Ranged attack cards (you still need Melee icons to hit)."
       },
       "Special Ability§Blessing": {
         "classification": "Special Ability",
-        "text": "If he uses a Magic attack card and does not perform his Movement, you may activate another Ally within Line of Sight.",
-        "designation": "Blessing"
+        "text": "If he uses a Magic attack card and does not perform his Movement, you may activate another Ally within Line of Sight."
       },
       "Special Ability§Bow Mastery": {
         "classification": "Special Ability",
-        "text": "When attacking with a Bow attack card, each Crit deals one additional hit.",
-        "designation": "Bow Mastery"
+        "text": "When attacking with a Bow attack card, each Crit deals one additional hit."
       },
       "Special Ability§Bruiser": {
         "classification": "Special Ability",
-        "text": "Rolls +1 die on attacks against targets that have no Wounds.",
-        "designation": "Bruiser"
+        "text": "Rolls +1 die on attacks against targets that have no Wounds."
       },
       "Special Ability§Mana Mastery": {
         "classification": "Special Ability",
-        "text": "May exhaust each Magic attack card twice.",
-        "designation": "Mana Mastery"
+        "text": "May exhaust each Magic attack card twice."
       },
       "Special Ability§Not the Face": {
         "classification": "Special Ability",
-        "text": "Rolls +2 dice on Melee attacks as long as he is not wounded.",
-        "designation": "Not the Face"
+        "text": "Rolls +2 dice on Melee attacks as long as he is not wounded."
       },
       "Special Ability§Opportunist": {
         "classification": "Special Ability",
-        "text": "Does not exhaust an attack card when attacking a flanked target (a target with at least one other Enemy Close to it).",
-        "designation": "Opportunist"
+        "text": "Does not exhaust an attack card when attacking a flanked target (a target with at least one other Enemy Close to it)."
       },
       "Special Ability§Piercing Magic": {
         "classification": "Special Ability",
-        "text": "When attacking with a Magic card, the target does not roll Defense dice.",
-        "designation": "Piercing Magic"
+        "text": "When attacking with a Magic card, the target does not roll Defense dice."
       },
       "Special Ability§Self-Sacrifice": {
         "classification": "Special Ability",
-        "text": "May take a Wound instead of exhausting a card.",
-        "designation": "Self-Sacrifice"
+        "text": "May take a Wound instead of exhausting a card."
       },
       "Special Ability§Stealth": {
         "classification": "Special Ability",
-        "text": "When moving, does not trigger Guard Reaction.",
-        "designation": "Stealth"
+        "text": "When moving, does not trigger Guard Reaction."
       },
       "Special Ability§Tough as Nails": {
-        "classification": "Special Ability",
-        "designation": "Tough as Nails"
+        "classification": "Special Ability"
       },
       "Special Ability§Vengeance": {
         "classification": "Special Ability",
-        "text": "Each Crit on his Defense roll deals 1 Wound to the attacker.",
-        "designation": "Vengeance"
+        "text": "Each Crit on his Defense roll deals 1 Wound to the attacker."
       },
       "Upgrade§Amulet of Rawr!": {
         "classification": "Upgrade",
@@ -710,8 +669,7 @@
             "statType": "rank"
           }
         },
-        "text": "+2 dice on Attack rolls.",
-        "designation": "Amulet of Rawr!"
+        "text": "+2 dice on Attack rolls."
       },
       "Upgrade§Amulet of Retribution": {
         "classification": "Upgrade",
@@ -735,8 +693,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each hit cancelled by this Hero's Defense roll deals 1 Wound to the attacker.",
-        "designation": "Amulet of Retribution"
+        "text": "Each hit cancelled by this Hero's Defense roll deals 1 Wound to the attacker."
       },
       "Upgrade§Apocalypse Crown": {
         "classification": "Upgrade",
@@ -760,8 +717,7 @@
             "statType": "rank"
           }
         },
-        "text": "At the start of your activation, you may deal 1 Wound to any Close Enemies.",
-        "designation": "Apocalypse Crown"
+        "text": "At the start of your activation, you may deal 1 Wound to any Close Enemies."
       },
       "Upgrade§Assassin’s Cloak": {
         "classification": "Upgrade",
@@ -781,8 +737,7 @@
             "statType": "rank"
           }
         },
-        "text": "When this Hero moves, deal 1 Wound to each Close Enemy (limit 1 Wound per Enemy per turn).",
-        "designation": "Assassin’s Cloak"
+        "text": "When this Hero moves, deal 1 Wound to each Close Enemy (limit 1 Wound per Enemy per turn)."
       },
       "Upgrade§Astral Strike": {
         "classification": "Upgrade",
@@ -807,8 +762,7 @@
             "statType": "rank"
           }
         },
-        "text": "Only targets any Enemy on the board that's Close to an Ally of yours. (May be used by a dead Hero. Does not trigger Payback Reaction.)",
-        "designation": "Astral Strike"
+        "text": "Only targets any Enemy on the board that's Close to an Ally of yours. (May be used by a dead Hero. Does not trigger Payback Reaction.)"
       },
       "Upgrade§Astral Strike II": {
         "classification": "Upgrade",
@@ -833,8 +787,7 @@
             "statType": "rank"
           }
         },
-        "text": "Only targets any Enemy on the board that's Close to an Ally of yours. (May be used by a dead Hero. Does not trigger Payback Reaction.)",
-        "designation": "Astral Strike II"
+        "text": "Only targets any Enemy on the board that's Close to an Ally of yours. (May be used by a dead Hero. Does not trigger Payback Reaction.)"
       },
       "Upgrade§Banish": {
         "classification": "Upgrade",
@@ -862,8 +815,7 @@
             "statType": "rank"
           }
         },
-        "text": "Place the target in the Spawn tile unless he takes 2 extra Wounds (banishment does not count as a kill).",
-        "designation": "Banish"
+        "text": "Place the target in the Spawn tile unless he takes 2 extra Wounds (banishment does not count as a kill)."
       },
       "Upgrade§Battle Cry": {
         "classification": "Upgrade",
@@ -884,8 +836,7 @@
             "statType": "numeric"
           }
         },
-        "text": "If your attack rolls any Crit, you may activate another allied Hero this turn.",
-        "designation": "Battle Cry"
+        "text": "If your attack rolls any Crit, you may activate another allied Hero this turn."
       },
       "Upgrade§Beastman's Spear": {
         "classification": "Upgrade",
@@ -906,8 +857,7 @@
             "statType": "rank"
           }
         },
-        "text": "For this attack, the first diagonal Space counts as being Close.",
-        "designation": "Beastman's Spear"
+        "text": "For this attack, the first diagonal Space counts as being Close."
       },
       "Upgrade§Blazing Shot": {
         "classification": "Upgrade",
@@ -931,8 +881,7 @@
             "statType": "rank"
           }
         },
-        "text": "+2 dice to a Bow attack. This Hero takes 1 Wound.",
-        "designation": "Blazing Shot"
+        "text": "+2 dice to a Bow attack. This Hero takes 1 Wound."
       },
       "Upgrade§Bleeder": {
         "classification": "Upgrade",
@@ -957,8 +906,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each Crit deals one additional hit.",
-        "designation": "Bleeder"
+        "text": "Each Crit deals one additional hit."
       },
       "Upgrade§Blood Crown": {
         "classification": "Upgrade",
@@ -978,8 +926,7 @@
             "statType": "rank"
           }
         },
-        "text": "Deal 2 Wounds to an Enemy that leaves a Space Close to this Hero (limit once per Enemy per turn).",
-        "designation": "Blood Crown"
+        "text": "Deal 2 Wounds to an Enemy that leaves a Space Close to this Hero (limit once per Enemy per turn)."
       },
       "Upgrade§Bloodthirst": {
         "classification": "Upgrade",
@@ -1004,8 +951,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each Crit deals 2 additional hits.",
-        "designation": "Bloodthirst"
+        "text": "Each Crit deals 2 additional hits."
       },
       "Upgrade§Bomb": {
         "classification": "Upgrade",
@@ -1029,8 +975,7 @@
             "statType": "rank"
           }
         },
-        "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space.",
-        "designation": "Bomb"
+        "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space."
       },
       "Upgrade§Bomb Appetit": {
         "classification": "Upgrade",
@@ -1058,8 +1003,7 @@
             "statType": "rank"
           }
         },
-        "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space.",
-        "designation": "Bomb Appetit"
+        "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space."
       },
       "Upgrade§Boneguard": {
         "classification": "Upgrade",
@@ -1095,8 +1039,7 @@
             "statType": "rank"
           }
         },
-        "text": "Limit 1 armor per Hero. Cancels one Wound per Death token on the attacker.",
-        "designation": "Boneguard"
+        "text": "Limit 1 armor per Hero. Cancels one Wound per Death token on the attacker."
       },
       "Upgrade§Book of the Dead": {
         "classification": "Upgrade",
@@ -1116,8 +1059,7 @@
             "statType": "rank"
           }
         },
-        "text": "When attacking, add +1 die per Death token in your Guild.",
-        "designation": "Book of the Dead"
+        "text": "When attacking, add +1 die per Death token in your Guild."
       },
       "Upgrade§Brimstone": {
         "classification": "Upgrade",
@@ -1142,8 +1084,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this deals any Wounds, your target and 1 additional Enemy Close to it are Dazed.",
-        "designation": "Brimstone"
+        "text": "If this deals any Wounds, your target and 1 additional Enemy Close to it are Dazed."
       },
       "Upgrade§Burninate": {
         "classification": "Upgrade",
@@ -1171,8 +1112,7 @@
             "statType": "rank"
           }
         },
-        "text": "May also target any number of enemies Close to the target.",
-        "designation": "Burninate"
+        "text": "May also target any number of enemies Close to the target."
       },
       "Upgrade§Burninate II": {
         "classification": "Upgrade",
@@ -1200,8 +1140,7 @@
             "statType": "rank"
           }
         },
-        "text": "May also target any number of enemies Close to the target.",
-        "designation": "Burninate II"
+        "text": "May also target any number of enemies Close to the target."
       },
       "Upgrade§Captain’s Blade": {
         "classification": "Upgrade",
@@ -1229,8 +1168,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Captain’s Blade"
+        }
       },
       "Upgrade§Celerity Stick": {
         "classification": "Upgrade",
@@ -1253,8 +1191,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Celerity Stick"
+        }
       },
       "Upgrade§Cleave": {
         "classification": "Upgrade",
@@ -1275,8 +1212,7 @@
             "statType": "numeric"
           }
         },
-        "text": "Your Sword and Axe attacks may target an additional Enemy Close to this Hero.",
-        "designation": "Cleave"
+        "text": "Your Sword and Axe attacks may target an additional Enemy Close to this Hero."
       },
       "Upgrade§Cleave II": {
         "classification": "Upgrade",
@@ -1297,8 +1233,7 @@
             "statType": "numeric"
           }
         },
-        "text": "Your Sword and Axe attacks may target all Enemies Close to this Hero.",
-        "designation": "Cleave II"
+        "text": "Your Sword and Axe attacks may target all Enemies Close to this Hero."
       },
       "Upgrade§Cloak of Displacement": {
         "classification": "Upgrade",
@@ -1322,8 +1257,7 @@
             "statType": "rank"
           }
         },
-        "text": "At the start of your turn, you may switch places between this Hero and an Ally (drop all Quest tokens).",
-        "designation": "Cloak of Displacement"
+        "text": "At the start of your turn, you may switch places between this Hero and an Ally (drop all Quest tokens)."
       },
       "Upgrade§Crack of Dawn": {
         "classification": "Upgrade",
@@ -1348,8 +1282,7 @@
             "statType": "rank"
           }
         },
-        "text": "Rolls +1 die against Heroes.",
-        "designation": "Crack of Dawn"
+        "text": "Rolls +1 die against Heroes."
       },
       "Upgrade§Crescent Bow": {
         "classification": "Upgrade",
@@ -1376,8 +1309,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Crescent Bow"
+        }
       },
       "Upgrade§Crushing Gauntlet": {
         "classification": "Upgrade",
@@ -1401,8 +1333,7 @@
             "statType": "rank"
           }
         },
-        "text": "+2 dice to a non-Magic Melee attack. This Hero takes 1 Wound.",
-        "designation": "Crushing Gauntlet"
+        "text": "+2 dice to a non-Magic Melee attack. This Hero takes 1 Wound."
       },
       "Upgrade§Da Bomb": {
         "classification": "Upgrade",
@@ -1435,8 +1366,7 @@
             "statType": "rank"
           }
         },
-        "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space.",
-        "designation": "Da Bomb"
+        "text": "Limit 1 Bomb per Guild. If this rolls any hits, place 1 Guild token on each Close Space. Token explodes and attacks an enemy Hero who moves into that Space."
       },
       "Upgrade§Das Boot": {
         "classification": "Upgrade",
@@ -1456,8 +1386,7 @@
             "statType": "rank"
           }
         },
-        "text": "When you activate a different Hero, you may move this Hero 1 Space.",
-        "designation": "Das Boot"
+        "text": "When you activate a different Hero, you may move this Hero 1 Space."
       },
       "Upgrade§Deadshot": {
         "classification": "Upgrade",
@@ -1481,8 +1410,7 @@
             "statType": "rank"
           }
         },
-        "text": "+1 die to a Bow attack and an extra +1 die per Death Token on this Hero.",
-        "designation": "Deadshot"
+        "text": "+1 die to a Bow attack and an extra +1 die per Death Token on this Hero."
       },
       "Upgrade§Death Swarm": {
         "classification": "Upgrade",
@@ -1510,8 +1438,7 @@
             "statType": "rank"
           }
         },
-        "text": "TBD",
-        "designation": "Death Swarm"
+        "text": "TBD"
       },
       "Upgrade§Decimator": {
         "classification": "Upgrade",
@@ -1536,8 +1463,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each Crit deals one additional hit.",
-        "designation": "Decimator"
+        "text": "Each Crit deals one additional hit."
       },
       "Upgrade§Die Booten": {
         "classification": "Upgrade",
@@ -1561,8 +1487,7 @@
             "statType": "rank"
           }
         },
-        "text": "When you activate a different Hero, you may move this Hero 2 Spaces.",
-        "designation": "Die Booten"
+        "text": "When you activate a different Hero, you may move this Hero 2 Spaces."
       },
       "Upgrade§Emberstrike": {
         "classification": "Upgrade",
@@ -1595,8 +1520,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any Crit, target cannot roll Defense.",
-        "designation": "Emberstrike"
+        "text": "If this rolls any Crit, target cannot roll Defense."
       },
       "Upgrade§Emperor’s Plate": {
         "classification": "Upgrade",
@@ -1627,8 +1551,7 @@
             "statType": "numeric"
           }
         },
-        "text": "Limit 1 armor per Hero.",
-        "designation": "Emperor’s Plate"
+        "text": "Limit 1 armor per Hero."
       },
       "Upgrade§Flaming Chain": {
         "classification": "Upgrade",
@@ -1649,8 +1572,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any Crit, place your Guild token on the target's figure. At the start of each of your turns, the target suffers a Wound (Rest removes this).",
-        "designation": "Flaming Chain"
+        "text": "If this rolls any Crit, place your Guild token on the target's figure. At the start of each of your turns, the target suffers a Wound (Rest removes this)."
       },
       "Upgrade§Fortune Dice": {
         "classification": "Upgrade",
@@ -1670,8 +1592,7 @@
             "statType": "rank"
           }
         },
-        "text": "Before you roll, predict how many hits or saves you will get. If you can get that many exactly, double the result.",
-        "designation": "Fortune Dice"
+        "text": "Before you roll, predict how many hits or saves you will get. If you can get that many exactly, double the result."
       },
       "Upgrade§Frostbite": {
         "classification": "Upgrade",
@@ -1704,8 +1625,7 @@
             "statType": "rank"
           }
         },
-        "text": "+2 dice against Heroes with any exhausted cards.",
-        "designation": "Frostbite"
+        "text": "+2 dice against Heroes with any exhausted cards."
       },
       "Upgrade§Genesis Glass": {
         "classification": "Upgrade",
@@ -1729,8 +1649,7 @@
             "statType": "rank"
           }
         },
-        "text": "At the start of your turn, this Hero heals 1 Wound.",
-        "designation": "Genesis Glass"
+        "text": "At the start of your turn, this Hero heals 1 Wound."
       },
       "Upgrade§Genesis Glass II": {
         "classification": "Upgrade",
@@ -1754,8 +1673,7 @@
             "statType": "rank"
           }
         },
-        "text": "At the start of your turn, this Hero heals 2 Wounds.",
-        "designation": "Genesis Glass II"
+        "text": "At the start of your turn, this Hero heals 2 Wounds."
       },
       "Upgrade§Greenskin Bane": {
         "classification": "Upgrade",
@@ -1779,8 +1697,7 @@
             "statType": "rank"
           }
         },
-        "text": "+1 die against Orcs and Goblins.",
-        "designation": "Greenskin Bane"
+        "text": "+1 die against Orcs and Goblins."
       },
       "Upgrade§Ground Pounder": {
         "classification": "Upgrade",
@@ -1805,8 +1722,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this deals a Wound, your target and all Enemies Close to it are Dazed.",
-        "designation": "Ground Pounder"
+        "text": "If this deals a Wound, your target and all Enemies Close to it are Dazed."
       },
       "Upgrade§Grrrrrrrrr!": {
         "classification": "Upgrade",
@@ -1827,8 +1743,7 @@
             "statType": "numeric"
           }
         },
-        "text": "Once per attack, you may take 1 Wound to add +1 die.",
-        "designation": "Grrrrrrrrr!"
+        "text": "Once per attack, you may take 1 Wound to add +1 die."
       },
       "Upgrade§Hate": {
         "classification": "Upgrade",
@@ -1856,8 +1771,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any Crit against a Hero, exhaust all of his cards, unless he takes 2 extra Wounds.",
-        "designation": "Hate"
+        "text": "If this rolls any Crit against a Hero, exhaust all of his cards, unless he takes 2 extra Wounds."
       },
       "Upgrade§Hate II": {
         "classification": "Upgrade",
@@ -1885,8 +1799,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any Crit against a Hero, exhaust all of his cards, unless he takes 2 extra Wounds.",
-        "designation": "Hate II"
+        "text": "If this rolls any Crit against a Hero, exhaust all of his cards, unless he takes 2 extra Wounds."
       },
       "Upgrade§Heart of Angelis": {
         "classification": "Upgrade",
@@ -1906,8 +1819,7 @@
             "statType": "rank"
           }
         },
-        "text": "Whenever this Hero suffers any Wounds, heal 1 Wound from all Allies.",
-        "designation": "Heart of Angelis"
+        "text": "Whenever this Hero suffers any Wounds, heal 1 Wound from all Allies."
       },
       "Upgrade§Heart of the Dragon": {
         "classification": "Upgrade",
@@ -1935,8 +1847,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each Crit on this Hero's Defense roll adds one extra save.",
-        "designation": "Heart of the Dragon"
+        "text": "Each Crit on this Hero's Defense roll adds one extra save."
       },
       "Upgrade§Heart of the Gryphon": {
         "classification": "Upgrade",
@@ -1959,8 +1870,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Heart of the Gryphon"
+        }
       },
       "Upgrade§Heart of the Phoenix": {
         "classification": "Upgrade",
@@ -1987,8 +1897,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Heart of the Phoenix"
+        }
       },
       "Upgrade§Heart of the Unicorn": {
         "classification": "Upgrade",
@@ -2015,8 +1924,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Heart of the Unicorn"
+        }
       },
       "Upgrade§Holy Nova": {
         "classification": "Upgrade",
@@ -2041,8 +1949,7 @@
             "statType": "rank"
           }
         },
-        "text": "If you deal any Wounds, the target and an additional Enemy close to you are Dazed.",
-        "designation": "Holy Nova"
+        "text": "If you deal any Wounds, the target and an additional Enemy close to you are Dazed."
       },
       "Upgrade§Holy Nova II": {
         "classification": "Upgrade",
@@ -2067,8 +1974,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this attack deals any Wounds, your target and all Enemies Close to you are Dazed.",
-        "designation": "Holy Nova II"
+        "text": "If this attack deals any Wounds, your target and all Enemies Close to you are Dazed."
       },
       "Upgrade§Holy Water": {
         "classification": "Upgrade",
@@ -2092,8 +1998,7 @@
             "statType": "rank"
           }
         },
-        "text": "If attacking a Minion, each Crit rolled immediately deals an extra Wound.",
-        "designation": "Holy Water"
+        "text": "If attacking a Minion, each Crit rolled immediately deals an extra Wound."
       },
       "Upgrade§Hulking Serum": {
         "classification": "Upgrade",
@@ -2113,8 +2018,7 @@
             "statType": "rank"
           }
         },
-        "text": "Double the Attack dice of a non-Magic attack card.",
-        "designation": "Hulking Serum"
+        "text": "Double the Attack dice of a non-Magic attack card."
       },
       "Upgrade§Hunter Crossbow": {
         "classification": "Upgrade",
@@ -2142,8 +2046,7 @@
             "statType": "rank"
           }
         },
-        "text": "Only Crit on the Defense roll score saves against this attack. +1 die against Monsters",
-        "designation": "Hunter Crossbow"
+        "text": "Only Crit on the Defense roll score saves against this attack. +1 die against Monsters"
       },
       "Upgrade§Impale": {
         "classification": "Upgrade",
@@ -2164,8 +2067,7 @@
             "statType": "numeric"
           }
         },
-        "text": "If you roll any Crit on a Sword or Lance attack, you may target one additional Enemy Close to the target.",
-        "designation": "Impale"
+        "text": "If you roll any Crit on a Sword or Lance attack, you may target one additional Enemy Close to the target."
       },
       "Upgrade§Impale II": {
         "classification": "Upgrade",
@@ -2186,8 +2088,7 @@
             "statType": "numeric"
           }
         },
-        "text": "For each Crit you roll on a Sword or Lance attack, you may target one additional Enemy Close to the target.",
-        "designation": "Impale II"
+        "text": "For each Crit you roll on a Sword or Lance attack, you may target one additional Enemy Close to the target."
       },
       "Upgrade§King’s Plate": {
         "classification": "Upgrade",
@@ -2223,8 +2124,7 @@
             "statType": "rank"
           }
         },
-        "text": "Limit 1 armor per Hero.",
-        "designation": "King’s Plate"
+        "text": "Limit 1 armor per Hero."
       },
       "Upgrade§King’s Shield": {
         "classification": "Upgrade",
@@ -2256,8 +2156,7 @@
             "statType": "rank"
           }
         },
-        "text": "May exhaust Hero to get +2 on a Defense roll.",
-        "designation": "King’s Shield"
+        "text": "May exhaust Hero to get +2 on a Defense roll."
       },
       "Upgrade§Knight’s Plate": {
         "classification": "Upgrade",
@@ -2293,8 +2192,7 @@
             "statType": "rank"
           }
         },
-        "text": "Limit 1 armor per Hero.",
-        "designation": "Knight’s Plate"
+        "text": "Limit 1 armor per Hero."
       },
       "Upgrade§Knight’s Shield": {
         "classification": "Upgrade",
@@ -2322,8 +2220,7 @@
             "statType": "rank"
           }
         },
-        "text": "May exhaust your Hero card to force an attack made against you to be rolled again.",
-        "designation": "Knight’s Shield"
+        "text": "May exhaust your Hero card to force an attack made against you to be rolled again."
       },
       "Upgrade§Last Grim": {
         "classification": "Upgrade",
@@ -2348,8 +2245,7 @@
             "statType": "rank"
           }
         },
-        "text": "May target an additional Enemy Close to this Hero.",
-        "designation": "Last Grim"
+        "text": "May target an additional Enemy Close to this Hero."
       },
       "Upgrade§Last Stand": {
         "classification": "Upgrade",
@@ -2382,8 +2278,7 @@
             "statType": "rank"
           }
         },
-        "text": "X= Total Wounds on this Hero.",
-        "designation": "Last Stand"
+        "text": "X= Total Wounds on this Hero."
       },
       "Upgrade§Life Drain": {
         "classification": "Upgrade",
@@ -2407,8 +2302,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each hit heals 1 Wound from this Hero.",
-        "designation": "Life Drain"
+        "text": "Each hit heals 1 Wound from this Hero."
       },
       "Upgrade§Life Drain II": {
         "classification": "Upgrade",
@@ -2436,8 +2330,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each hit heals 1 Wound from this Hero and one Close Ally.",
-        "designation": "Life Drain II"
+        "text": "Each hit heals 1 Wound from this Hero and one Close Ally."
       },
       "Upgrade§Life Drain III": {
         "classification": "Upgrade",
@@ -2465,8 +2358,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each hit heals 1 Wound from this Hero and all Close Allies.",
-        "designation": "Life Drain III"
+        "text": "Each hit heals 1 Wound from this Hero and all Close Allies."
       },
       "Upgrade§Lifestealer": {
         "classification": "Upgrade",
@@ -2490,8 +2382,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each Wound dealt by the boosted Magic attack heals 1 Wound from this Hero.",
-        "designation": "Lifestealer"
+        "text": "Each Wound dealt by the boosted Magic attack heals 1 Wound from this Hero."
       },
       "Upgrade§Lord’s Plate": {
         "classification": "Upgrade",
@@ -2527,8 +2418,7 @@
             "statType": "rank"
           }
         },
-        "text": "Limit 1 armor per Hero.",
-        "designation": "Lord’s Plate"
+        "text": "Limit 1 armor per Hero."
       },
       "Upgrade§Moon Ring": {
         "classification": "Upgrade",
@@ -2552,8 +2442,7 @@
             "statType": "rank"
           }
         },
-        "text": "+1 die to one Attack Card.",
-        "designation": "Moon Ring"
+        "text": "+1 die to one Attack Card."
       },
       "Upgrade§Moon Ring II": {
         "classification": "Upgrade",
@@ -2577,8 +2466,7 @@
             "statType": "rank"
           }
         },
-        "text": "+2 dice to one Attack card.",
-        "designation": "Moon Ring II"
+        "text": "+2 dice to one Attack card."
       },
       "Upgrade§Moon Ring III": {
         "classification": "Upgrade",
@@ -2602,8 +2490,7 @@
             "statType": "rank"
           }
         },
-        "text": "+3 dice to one Attack card.",
-        "designation": "Moon Ring III"
+        "text": "+3 dice to one Attack card."
       },
       "Upgrade§Moon Shield": {
         "classification": "Upgrade",
@@ -2627,8 +2514,7 @@
             "statType": "rank"
           }
         },
-        "text": "Double your total Defense dice.",
-        "designation": "Moon Shield"
+        "text": "Double your total Defense dice."
       },
       "Upgrade§More Grrrrrrrrr!": {
         "classification": "Upgrade",
@@ -2649,8 +2535,7 @@
             "statType": "numeric"
           }
         },
-        "text": "Once per attack, you may take 2 Wounds to add +2 die.",
-        "designation": "More Grrrrrrrrr!"
+        "text": "Once per attack, you may take 2 Wounds to add +2 die."
       },
       "Upgrade§Necronomicon": {
         "classification": "Upgrade",
@@ -2674,8 +2559,7 @@
             "statType": "rank"
           }
         },
-        "text": "+1 die to any attack per Death token on the target",
-        "designation": "Necronomicon"
+        "text": "+1 die to any attack per Death token on the target"
       },
       "Upgrade§Night Fury": {
         "classification": "Upgrade",
@@ -2707,8 +2591,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Night Fury"
+        }
       },
       "Upgrade§Nova Bolt": {
         "classification": "Upgrade",
@@ -2732,8 +2615,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any Crit, may target an additional Enemy Close to the target.",
-        "designation": "Nova Bolt"
+        "text": "If this rolls any Crit, may target an additional Enemy Close to the target."
       },
       "Upgrade§Nova Bolt II": {
         "classification": "Upgrade",
@@ -2761,8 +2643,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any Crit, may target an additional Enemy Close to the target",
-        "designation": "Nova Bolt II"
+        "text": "If this rolls any Crit, may target an additional Enemy Close to the target"
       },
       "Upgrade§Orc Beater": {
         "classification": "Upgrade",
@@ -2787,8 +2668,7 @@
             "statType": "rank"
           }
         },
-        "text": "Rolls +1 die against Orcs and Goblins.",
-        "designation": "Orc Beater"
+        "text": "Rolls +1 die against Orcs and Goblins."
       },
       "Upgrade§Orc Pelt": {
         "classification": "Upgrade",
@@ -2820,8 +2700,7 @@
             "statType": "rank"
           }
         },
-        "text": "Limit 1 armor per Hero.",
-        "designation": "Orc Pelt"
+        "text": "Limit 1 armor per Hero."
       },
       "Upgrade§Parrying Blade": {
         "classification": "Upgrade",
@@ -2845,8 +2724,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Parrying Blade"
+        }
       },
       "Upgrade§Power Harness": {
         "classification": "Upgrade",
@@ -2879,8 +2757,7 @@
             "statType": "rank"
           }
         },
-        "text": "Limit 1 armor per Hero. This Hero can exhaust each card one extra time.",
-        "designation": "Power Harness"
+        "text": "Limit 1 armor per Hero. This Hero can exhaust each card one extra time."
       },
       "Upgrade§Quickshot": {
         "classification": "Upgrade",
@@ -2908,8 +2785,7 @@
             "statType": "rank"
           }
         },
-        "text": "Only Crit on the Defense roll score saves against this attack.",
-        "designation": "Quickshot"
+        "text": "Only Crit on the Defense roll score saves against this attack."
       },
       "Upgrade§Rabbit’s Foot": {
         "classification": "Upgrade",
@@ -2933,8 +2809,7 @@
             "statType": "rank"
           }
         },
-        "text": "Exhaust your Hero card to roll again from scratch either your attack or an attack made against you.",
-        "designation": "Rabbit’s Foot"
+        "text": "Exhaust your Hero card to roll again from scratch either your attack or an attack made against you."
       },
       "Upgrade§Ragestone": {
         "classification": "Upgrade",
@@ -2955,8 +2830,7 @@
             "statType": "rank"
           }
         },
-        "text": "When attacking, add +1 die for each Wound on this Hero.",
-        "designation": "Ragestone"
+        "text": "When attacking, add +1 die for each Wound on this Hero."
       },
       "Upgrade§Rune Ring": {
         "classification": "Upgrade",
@@ -2980,8 +2854,7 @@
             "statType": "rank"
           }
         },
-        "text": "Add an extra +1 Reroll per Death token on this Hero.",
-        "designation": "Rune Ring"
+        "text": "Add an extra +1 Reroll per Death token on this Hero."
       },
       "Upgrade§Rusty Blade": {
         "classification": "Upgrade",
@@ -3001,8 +2874,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Rusty Blade"
+        }
       },
       "Upgrade§Sack O’ Bones": {
         "classification": "Upgrade",
@@ -3022,8 +2894,7 @@
             "statType": "rank"
           }
         },
-        "text": "Heal 2 Wounds whenever this Hero kills an Enemy.",
-        "designation": "Sack O’ Bones"
+        "text": "Heal 2 Wounds whenever this Hero kills an Enemy."
       },
       "Upgrade§Schmetterling’s Axe": {
         "classification": "Upgrade",
@@ -3044,8 +2915,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each Crit deals one additional hit and heals 1 Wound from this Hero.",
-        "designation": "Schmetterling’s Axe"
+        "text": "Each Crit deals one additional hit and heals 1 Wound from this Hero."
       },
       "Upgrade§Shield of Souls": {
         "classification": "Upgrade",
@@ -3069,8 +2939,7 @@
             "statType": "rank"
           }
         },
-        "text": "Exhaust this Hero to immediately Resurrect one Ally.",
-        "designation": "Shield of Souls"
+        "text": "Exhaust this Hero to immediately Resurrect one Ally."
       },
       "Upgrade§Sickle": {
         "classification": "Upgrade",
@@ -3094,8 +2963,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Sickle"
+        }
       },
       "Upgrade§Skull Helm": {
         "classification": "Upgrade",
@@ -3123,8 +2991,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this Hero has Boneguard, cancel 1 Wound per attack.",
-        "designation": "Skull Helm"
+        "text": "If this Hero has Boneguard, cancel 1 Wound per attack."
       },
       "Upgrade§Skull Mace": {
         "classification": "Upgrade",
@@ -3149,8 +3016,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this deals any Wounds, choose and exhaust one of the target's cards.",
-        "designation": "Skull Mace"
+        "text": "If this deals any Wounds, choose and exhaust one of the target's cards."
       },
       "Upgrade§Skullcracker": {
         "classification": "Upgrade",
@@ -3171,8 +3037,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this deals a Wound, your target is Dazed. +1 die against Heroes.",
-        "designation": "Skullcracker"
+        "text": "If this deals a Wound, your target is Dazed. +1 die against Heroes."
       },
       "Upgrade§Slingshot": {
         "classification": "Upgrade",
@@ -3195,8 +3060,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Slingshot"
+        }
       },
       "Upgrade§Smashface": {
         "classification": "Upgrade",
@@ -3221,8 +3085,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this deals any Wounds, your target is Dazed.",
-        "designation": "Smashface"
+        "text": "If this deals any Wounds, your target is Dazed."
       },
       "Upgrade§Sorrow": {
         "classification": "Upgrade",
@@ -3255,8 +3118,7 @@
             "statType": "rank"
           }
         },
-        "text": "+1 attack die per Death token on this Hero.",
-        "designation": "Sorrow"
+        "text": "+1 attack die per Death token on this Hero."
       },
       "Upgrade§Soulseeker": {
         "classification": "Upgrade",
@@ -3276,8 +3138,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each Crit on a Bow attack deals one extra hit.",
-        "designation": "Soulseeker"
+        "text": "Each Crit on a Bow attack deals one extra hit."
       },
       "Upgrade§Soulstone": {
         "classification": "Upgrade",
@@ -3296,8 +3157,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Soulstone"
+        }
       },
       "Upgrade§Spinal Tap": {
         "classification": "Upgrade",
@@ -3321,8 +3181,7 @@
             "statType": "rank"
           }
         },
-        "text": "+2 dice if the target has any Death tokens.",
-        "designation": "Spinal Tap"
+        "text": "+2 dice if the target has any Death tokens."
       },
       "Upgrade§Summoning": {
         "classification": "Upgrade",
@@ -3350,8 +3209,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any Crit, take the first Monster from the Spawn tile, place it Close to your target and have it attack him.",
-        "designation": "Summoning"
+        "text": "If this rolls any Crit, take the first Monster from the Spawn tile, place it Close to your target and have it attack him."
       },
       "Upgrade§Sun Ring": {
         "classification": "Upgrade",
@@ -3374,8 +3232,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Sun Ring"
+        }
       },
       "Upgrade§Sun Ring II": {
         "classification": "Upgrade",
@@ -3398,8 +3255,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Sun Ring II"
+        }
       },
       "Upgrade§Thorn": {
         "classification": "Upgrade",
@@ -3423,8 +3279,7 @@
             "value": 3,
             "statType": "numeric"
           }
-        },
-        "designation": "Thorn"
+        }
       },
       "Upgrade§Throwing Axe": {
         "classification": "Upgrade",
@@ -3452,8 +3307,7 @@
             "statType": "rank"
           }
         },
-        "text": "Each Crit deals one additional hit.",
-        "designation": "Throwing Axe"
+        "text": "Each Crit deals one additional hit."
       },
       "Upgrade§Tombstone Shield": {
         "classification": "Upgrade",
@@ -3481,8 +3335,7 @@
             "statType": "rank"
           }
         },
-        "text": "And an extra +1 Defense per Death token on this Hero.",
-        "designation": "Tombstone Shield"
+        "text": "And an extra +1 Defense per Death token on this Hero."
       },
       "Upgrade§Tome of Enlightenment": {
         "classification": "Upgrade",
@@ -3505,8 +3358,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Tome of Enlightenment"
+        }
       },
       "Upgrade§Trueshot": {
         "classification": "Upgrade",
@@ -3533,8 +3385,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Trueshot"
+        }
       },
       "Upgrade§Trusty Blade": {
         "classification": "Upgrade",
@@ -3566,8 +3417,7 @@
           "Type": {
             "statType": "rank"
           }
-        },
-        "designation": "Trusty Blade"
+        }
       },
       "Upgrade§Twinbolt": {
         "classification": "Upgrade",
@@ -3595,8 +3445,7 @@
             "statType": "rank"
           }
         },
-        "text": "Only Crit on the Defense roll score saves against this attack.",
-        "designation": "Twinbolt"
+        "text": "Only Crit on the Defense roll score saves against this attack."
       },
       "Upgrade§Wand of Haste": {
         "classification": "Upgrade",
@@ -3620,8 +3469,7 @@
             "statType": "rank"
           }
         },
-        "text": "+1 die to a Magic attack. Do not exhaust the boosted Magic attack card.",
-        "designation": "Wand of Haste"
+        "text": "+1 die to a Magic attack. Do not exhaust the boosted Magic attack card."
       },
       "Upgrade§Warding Signet": {
         "classification": "Upgrade",
@@ -3645,8 +3493,7 @@
             "statType": "rank"
           }
         },
-        "text": "Any Monster moving into a Space Close to this Hero suffers 1 Wound.",
-        "designation": "Warding Signet"
+        "text": "Any Monster moving into a Space Close to this Hero suffers 1 Wound."
       },
       "Upgrade§Wind Blast": {
         "classification": "Upgrade",
@@ -3674,8 +3521,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any hits, move the target up to 3 spaces (this Move doesn’t trigger Guard Reaction).",
-        "designation": "Wind Blast"
+        "text": "If this rolls any hits, move the target up to 3 spaces (this Move doesn’t trigger Guard Reaction)."
       },
       "Upgrade§Wind Blast II": {
         "classification": "Upgrade",
@@ -3703,8 +3549,7 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any hits, move the target up to 3 spaces (this Move doesn't trigger Guard Reaction).",
-        "designation": "Wind Blast II"
+        "text": "If this rolls any hits, move the target up to 3 spaces (this Move doesn't trigger Guard Reaction)."
       },
       "Upgrade§Wither": {
         "classification": "Upgrade",
@@ -3732,12 +3577,10 @@
             "statType": "rank"
           }
         },
-        "text": "If this rolls any Crit, place your Guild token on the target's figure. At the start of each of your turns, the target suffers a Wound (Rest removes this).",
-        "designation": "Wither"
+        "text": "If this rolls any Crit, place your Guild token on the target's figure. At the start of each of your turns, the target suffers a Wound (Rest removes this)."
       }
     },
     "gameModes": {}
   },
-  "revision": "0.1",
-  "notes": "This manifest is provided for the purposes of testing Rosterizer and is not intended for distribution."
+  "revision": "0.1"
 }
