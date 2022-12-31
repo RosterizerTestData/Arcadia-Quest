@@ -88,22 +88,22 @@
             "ranks": {
               "0": {
                 "hotkey": "m",
-                "label": "Melee",
+                "format": "Melee",
                 "order": 0
               },
               "1": {
                 "hotkey": "r",
-                "label": "Ranged",
+                "format": "Ranged",
                 "order": 1
               },
               "2": {
                 "hotkey": "p",
-                "label": "Permanent",
+                "format": "Permanent",
                 "order": 2
               },
               "3": {
                 "hotkey": "b",
-                "label": "Boost",
+                "format": "Boost",
                 "order": 3
               }
             },
@@ -132,67 +132,67 @@
             "ranks": {
               "0": {
                 "hotkey": "b",
-                "label": "Ability",
+                "format": "Ability",
                 "order": 0
               },
               "1": {
                 "hotkey": "r",
-                "label": "Armor",
+                "format": "Armor",
                 "order": 1
               },
               "2": {
                 "hotkey": "a",
-                "label": "Axe",
+                "format": "Axe",
                 "order": 2
               },
               "3": {
                 "hotkey": "i",
-                "label": "Bling",
+                "format": "Bling",
                 "order": 3
               },
               "4": {
                 "hotkey": "o",
-                "label": "Bow",
+                "format": "Bow",
                 "order": 4
               },
               "5": {
                 "hotkey": "x",
-                "label": "Exotic",
+                "format": "Exotic",
                 "order": 5
               },
               "6": {
                 "hotkey": "g",
-                "label": "Gear",
+                "format": "Gear",
                 "order": 6
               },
               "7": {
                 "hotkey": "h",
-                "label": "Hammer",
+                "format": "Hammer",
                 "order": 7
               },
               "8": {
                 "hotkey": "l",
-                "label": "Lance",
+                "format": "Lance",
                 "order": 8
               },
               "9": {
                 "hotkey": "m",
-                "label": "Magic",
+                "format": "Magic",
                 "order": 9
               },
               "10": {
                 "hotkey": "s",
-                "label": "Shield",
+                "format": "Shield",
                 "order": 10
               },
               "11": {
                 "hotkey": "w",
-                "label": "Sword",
+                "format": "Sword",
                 "order": 11
               },
               "12": {
                 "hotkey": "t",
-                "label": "Thrown",
+                "format": "Thrown",
                 "order": 12
               }
             },
@@ -2154,7 +2154,7 @@
           "Def": {
             "ranks": {
               "0": {
-                "label": "X",
+                "format": "X",
                 "order": 0
               }
             },
