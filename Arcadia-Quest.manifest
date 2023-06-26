@@ -1,9 +1,12 @@
 {
   "name": "Arcadia + Beyond",
+  "revision": "0.1.1",
   "game": "Arcadia Quest",
   "genre": "fantasy",
   "publisher": "CMON",
   "url": "https://www.cmon.com/product/arcadia-quest",
+  "notes": "This manifest is provided for the purposes of testing Rosterizer and is not intended for distribution.",
+  "wip": true,
   "manifest": {
     "assetTaxonomy": {
       "Death Curse": {
@@ -30,8 +33,8 @@
         },
         "stats": {
           "Bomb": {
-            "tracked": true,
             "max": 1,
+            "tracked": true,
             "visibility": "hidden"
           }
         }
@@ -51,8 +54,8 @@
         },
         "stats": {
           "Armor": {
-            "tracked": true,
             "max": 1,
+            "tracked": true,
             "visibility": "hidden"
           },
           "Def": {},
@@ -75,124 +78,124 @@
         },
         "stats": {
           "Armor": {
-            "value": null,
             "statType": "numeric",
+            "value": null,
             "visibility": "hidden"
           },
           "Atk": {
-            "value": null,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": null
           },
           "Class": {
             "group": "Attributes",
             "ranks": {
               "0": {
-                "hotkey": "m",
                 "format": "Melee",
+                "hotkey": "m",
                 "order": 0
               },
               "1": {
-                "hotkey": "r",
                 "format": "Ranged",
+                "hotkey": "r",
                 "order": 1
               },
               "2": {
-                "hotkey": "p",
                 "format": "Permanent",
+                "hotkey": "p",
                 "order": 2
               },
               "3": {
-                "hotkey": "b",
                 "format": "Boost",
+                "hotkey": "b",
                 "order": 3
               }
             },
             "statType": "rank"
           },
           "Def": {
-            "value": null,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": null
           },
           "HP": {
-            "value": null,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": null
           },
           "Price": {
             "group": "Cost",
             "groupOrder": -1,
-            "value": null,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": null
           },
           "Reroll": {
-            "value": null,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": null
           },
           "Type": {
             "group": "Attributes",
             "ranks": {
               "0": {
-                "hotkey": "b",
                 "format": "Ability",
+                "hotkey": "b",
                 "order": 0
               },
               "1": {
-                "hotkey": "r",
                 "format": "Armor",
+                "hotkey": "r",
                 "order": 1
               },
               "2": {
-                "hotkey": "a",
                 "format": "Axe",
+                "hotkey": "a",
                 "order": 2
               },
               "3": {
-                "hotkey": "i",
                 "format": "Bling",
+                "hotkey": "i",
                 "order": 3
               },
               "4": {
-                "hotkey": "o",
                 "format": "Bow",
+                "hotkey": "o",
                 "order": 4
               },
               "5": {
-                "hotkey": "x",
                 "format": "Exotic",
+                "hotkey": "x",
                 "order": 5
               },
               "6": {
-                "hotkey": "g",
                 "format": "Gear",
+                "hotkey": "g",
                 "order": 6
               },
               "7": {
-                "hotkey": "h",
                 "format": "Hammer",
+                "hotkey": "h",
                 "order": 7
               },
               "8": {
-                "hotkey": "l",
                 "format": "Lance",
+                "hotkey": "l",
                 "order": 8
               },
               "9": {
-                "hotkey": "m",
                 "format": "Magic",
+                "hotkey": "m",
                 "order": 9
               },
               "10": {
-                "hotkey": "s",
                 "format": "Shield",
+                "hotkey": "s",
                 "order": 10
               },
               "11": {
-                "hotkey": "w",
                 "format": "Sword",
+                "hotkey": "w",
                 "order": 11
               },
               "12": {
-                "hotkey": "t",
                 "format": "Thrown",
+                "hotkey": "t",
                 "order": 12
               }
             },
@@ -205,8 +208,8 @@
       "Death Curse§Accident Prone": {
         "stats": {
           "Value": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           }
         },
         "text": "This Hero suffers 1 Wound if his attack deals no Wounds."
@@ -214,8 +217,8 @@
       "Death Curse§Amnesia": {
         "stats": {
           "Value": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         },
         "text": "Place on Hero card. This Hero loses his Natural Ability."
@@ -223,8 +226,8 @@
       "Death Curse§Aquaphobia": {
         "stats": {
           "Value": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           }
         },
         "text": "This Hero cannot use Potion tokens."
@@ -232,8 +235,8 @@
       "Death Curse§Damned": {
         "stats": {
           "Value": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           }
         },
         "text": "1 Damnation"
@@ -241,8 +244,8 @@
       "Death Curse§Dazed and Confused": {
         "stats": {
           "Value": {
-            "value": 7,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 7
           }
         },
         "text": "If this Hero suffers at least 1 Wound, he is Dazed."
@@ -250,8 +253,8 @@
       "Death Curse§Eternally Damned": {
         "stats": {
           "Value": {
-            "value": 7,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 7
           }
         },
         "text": "Occupies a Card slot. 3 Damnation."
@@ -262,8 +265,8 @@
       "Death Curse§Nosebleed": {
         "stats": {
           "Value": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         },
         "text": "-1 Life"
@@ -271,8 +274,8 @@
       "Death Curse§Paranoia": {
         "stats": {
           "Value": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           }
         },
         "text": "Whenever an enemy reveals a Brimstone Card, this Hero immediately receives 1 Damnation."
@@ -280,8 +283,8 @@
       "Death Curse§Severe Nosebleed": {
         "stats": {
           "Value": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           }
         },
         "text": "Occupies a card slot. -1 Life."
@@ -289,8 +292,8 @@
       "Death Curse§Sinful": {
         "stats": {
           "Value": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         },
         "text": "Each time this Hero gains any number of Damnation, he gets 1 additional Damnation."
@@ -298,8 +301,8 @@
       "Death Curse§System Shock": {
         "stats": {
           "Value": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           }
         },
         "text": "Occupies a card slot. No other card effect."
@@ -313,12 +316,12 @@
         },
         "stats": {
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -330,12 +333,12 @@
         },
         "stats": {
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -347,12 +350,12 @@
         },
         "stats": {
           "Def": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "HP": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -364,12 +367,12 @@
         },
         "stats": {
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -381,24 +384,24 @@
         },
         "stats": {
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "HP": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           }
         }
       },
       "Hero§Hobsbawm": {
         "stats": {
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -410,12 +413,12 @@
         },
         "stats": {
           "Def": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "HP": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         }
       },
@@ -427,12 +430,12 @@
         },
         "stats": {
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -444,12 +447,12 @@
         },
         "stats": {
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "HP": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           }
         }
       },
@@ -461,12 +464,12 @@
         },
         "stats": {
           "Def": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "HP": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         }
       },
@@ -478,12 +481,12 @@
         },
         "stats": {
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         }
       },
@@ -495,12 +498,12 @@
         },
         "stats": {
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         }
       },
@@ -512,12 +515,12 @@
         },
         "stats": {
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         }
       },
@@ -529,12 +532,12 @@
         },
         "stats": {
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         }
       },
@@ -553,11 +556,11 @@
         },
         "stats": {
           "Guild": {
-            "value": 0,
             "label": "Players",
-            "tracked": true,
             "max": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "tracked": true,
+            "value": 0
           }
         }
       },
@@ -615,8 +618,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 7,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 7
           },
           "Type": {
             "statType": "rank"
@@ -638,8 +641,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Type": {
             "statType": "rank"
@@ -661,8 +664,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -700,12 +703,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Price": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Type": {
             "statType": "rank"
@@ -724,12 +727,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -748,15 +751,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Type": {
             "statType": "rank"
@@ -778,8 +781,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         },
         "text": "If your attack rolls any Crit, you may activate another allied Hero this turn."
@@ -795,8 +798,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -818,8 +821,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -838,12 +841,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -881,12 +884,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -905,8 +908,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
@@ -928,15 +931,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 9,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 9
           },
           "Type": {
             "statType": "rank"
@@ -955,23 +958,23 @@
         },
         "stats": {
           "Armor": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Class": {
             "statType": "rank"
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "HP": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -1009,12 +1012,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Price": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -1033,15 +1036,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Type": {
             "statType": "rank"
@@ -1060,15 +1063,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Type": {
             "statType": "rank"
@@ -1087,16 +1090,16 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Reroll": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -1117,8 +1120,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Type": {
             "statType": "rank"
@@ -1139,8 +1142,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           }
         },
         "text": "Your Sword and Axe attacks may target an additional Enemy Close to this Hero."
@@ -1159,8 +1162,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 9,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 9
           }
         },
         "text": "Your Sword and Axe attacks may target all Enemies Close to this Hero."
@@ -1179,8 +1182,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -1199,12 +1202,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Price": {
-            "value": 9,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 9
           },
           "Type": {
             "statType": "rank"
@@ -1223,15 +1226,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -1252,8 +1255,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -1272,20 +1275,20 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Bomb": {
-            "value": 1,
             "statType": "numeric",
+            "value": 1,
             "visibility": "hidden"
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 9,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 9
           },
           "Type": {
             "statType": "rank"
@@ -1326,8 +1329,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -1346,15 +1349,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Type": {
             "statType": "rank"
@@ -1373,12 +1376,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -1400,8 +1403,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -1420,20 +1423,20 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Reroll": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -1452,21 +1455,21 @@
         },
         "stats": {
           "Armor": {
-            "value": 1,
             "statType": "numeric",
+            "value": 1,
             "visibility": "hidden"
           },
           "Def": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "HP": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Price": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           }
         },
         "text": "Limit 1 armor per Hero."
@@ -1482,8 +1485,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -1521,20 +1524,20 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Reroll": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -1556,8 +1559,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Type": {
             "statType": "rank"
@@ -1579,8 +1582,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Type": {
             "statType": "rank"
@@ -1599,8 +1602,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
@@ -1622,12 +1625,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -1649,8 +1652,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 7,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 7
           }
         },
         "text": "Once per attack, you may take 1 Wound to add +1 die."
@@ -1666,15 +1669,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -1693,15 +1696,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -1742,12 +1745,12 @@
             "statType": "rank"
           },
           "HP": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -1769,8 +1772,8 @@
             "statType": "rank"
           },
           "HP": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -1791,12 +1794,12 @@
             "statType": "rank"
           },
           "HP": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Reroll": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -1817,12 +1820,12 @@
             "statType": "rank"
           },
           "HP": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Reroll": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -1840,12 +1843,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -1864,12 +1867,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -1888,8 +1891,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Class": {
             "statType": "rank"
@@ -1930,15 +1933,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -1960,8 +1963,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         },
         "text": "If you roll any Crit on a Sword or Lance attack, you may target one additional Enemy Close to the target."
@@ -1980,8 +1983,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           }
         },
         "text": "For each Crit you roll on a Sword or Lance attack, you may target one additional Enemy Close to the target."
@@ -1997,23 +2000,23 @@
         },
         "stats": {
           "Armor": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Class": {
             "statType": "rank"
           },
           "Def": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "HP": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Price": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Type": {
             "statType": "rank"
@@ -2035,16 +2038,16 @@
             "statType": "rank"
           },
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Price": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Reroll": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -2063,23 +2066,23 @@
         },
         "stats": {
           "Armor": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Class": {
             "statType": "rank"
           },
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "HP": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Price": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Type": {
             "statType": "rank"
@@ -2101,12 +2104,12 @@
             "statType": "rank"
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Price": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -2125,12 +2128,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -2161,8 +2164,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -2181,8 +2184,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Class": {
             "statType": "rank"
@@ -2204,15 +2207,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -2231,15 +2234,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -2261,8 +2264,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -2281,23 +2284,23 @@
         },
         "stats": {
           "Armor": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Class": {
             "statType": "rank"
           },
           "Def": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "HP": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Price": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Type": {
             "statType": "rank"
@@ -2319,8 +2322,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -2342,8 +2345,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -2365,8 +2368,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -2388,8 +2391,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -2411,8 +2414,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           }
         },
         "text": "Once per attack, you may take 2 Wounds to add +2 die."
@@ -2431,8 +2434,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -2451,20 +2454,20 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Reroll": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -2482,8 +2485,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Class": {
             "statType": "rank"
@@ -2505,15 +2508,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -2532,12 +2535,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Price": {
-            "value": 8,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 8
           },
           "Type": {
             "statType": "rank"
@@ -2556,19 +2559,19 @@
         },
         "stats": {
           "Armor": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Class": {
             "statType": "rank"
           },
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Price": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Type": {
             "statType": "rank"
@@ -2587,12 +2590,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -2610,20 +2613,20 @@
         },
         "stats": {
           "Armor": {
-            "value": 1,
             "statType": "numeric",
+            "value": 1,
             "visibility": "hidden"
           },
           "Class": {
             "statType": "rank"
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "HP": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -2642,15 +2645,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -2672,8 +2675,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -2715,8 +2718,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -2735,8 +2738,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -2773,8 +2776,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -2796,8 +2799,8 @@
             "statType": "rank"
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -2816,12 +2819,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Reroll": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -2842,12 +2845,12 @@
             "statType": "rank"
           },
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Reroll": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -2866,12 +2869,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 5,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 5
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -2890,8 +2893,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -2910,8 +2913,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Class": {
             "statType": "rank"
@@ -2932,12 +2935,12 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -2956,20 +2959,20 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Reroll": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -3025,8 +3028,8 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
@@ -3048,15 +3051,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -3078,8 +3081,8 @@
             "statType": "rank"
           },
           "Reroll": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -3100,8 +3103,8 @@
             "statType": "rank"
           },
           "Reroll": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -3119,15 +3122,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           }
         }
       },
@@ -3142,15 +3145,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -3172,12 +3175,12 @@
             "statType": "rank"
           },
           "Def": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Reroll": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -3199,8 +3202,8 @@
             "statType": "rank"
           },
           "Reroll": {
-            "value": 2,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 2
           },
           "Type": {
             "statType": "rank"
@@ -3218,15 +3221,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 6,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 6
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -3244,20 +3247,20 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Def": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Price": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Reroll": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -3275,15 +3278,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -3305,8 +3308,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Type": {
             "statType": "rank"
@@ -3328,8 +3331,8 @@
             "statType": "rank"
           },
           "Price": {
-            "value": 1,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 1
           },
           "Type": {
             "statType": "rank"
@@ -3348,15 +3351,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 3,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 3
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -3375,15 +3378,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Type": {
             "statType": "rank"
@@ -3402,15 +3405,15 @@
         },
         "stats": {
           "Atk": {
-            "value": 4,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 4
           },
           "Class": {
             "statType": "rank"
           },
           "Price": {
-            "value": 7,
-            "statType": "numeric"
+            "statType": "numeric",
+            "value": 7
           },
           "Type": {
             "statType": "rank"
@@ -3420,8 +3423,5 @@
       }
     },
     "gameModes": {}
-  },
-  "revision": "0.1",
-  "notes": "This manifest is provided for the purposes of testing Rosterizer and is not intended for distribution.",
-  "wip": true
+  }
 }
