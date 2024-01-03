@@ -1,6 +1,6 @@
 {
   "name": "Arcadia + Beyond",
-  "revision": "0.1.1",
+  "revision": "0.2.0",
   "game": "Arcadia Quest",
   "genre": "fantasy",
   "publisher": "CMON",
@@ -541,7 +541,7 @@
           }
         }
       },
-      "Roster§Game": {
+      "Roster§Roster": {
         "allowed": {
           "classifications": [
             "Guild"
@@ -549,6 +549,7 @@
         },
         "aspects": {
           "Describe": true,
+          "Label": "Game",
           "Lock Qty": true,
           "Rename": true,
           "Type": "conceptual",
